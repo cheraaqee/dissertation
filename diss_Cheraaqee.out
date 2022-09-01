@@ -1,0 +1,49 @@
+\BOOKMARK [0][-]{section*.2}{List of Tables}{}% 1
+\BOOKMARK [0][-]{section*.4}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Classes of Objective IQA Problems}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Distortions in an Image}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Objectives and Motivations}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Literature Review}{}% 7
+\BOOKMARK [1][-]{section.2.1}{FR Methods for Single Distortion IQA}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{Structural Similarity}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{Similarity of Gradient Magnitude}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{No-Reference IQA Methods}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Feature-Based NR IQA Methods}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{Automatic Feature Extraction}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{FR methods for Multiple Distortions}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.3.1}{Combination of Scores}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.2}{Similarity of QWT Subbands}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.3}{Measuring Mutual Information}{section.2.3}% 17
+\BOOKMARK [1][-]{section.2.4}{RR Methods for Multiple Distortions}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.4.1}{Combining Scores}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.2}{Using the Internal Generative Mechanism}{section.2.4}% 20
+\BOOKMARK [1][-]{section.2.5}{NR methods for Multiple Distortions}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{Five-Steps and Six-Steps Methods}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.2}{Combining Quality Parameters}{section.2.5}% 23
+\BOOKMARK [2][-]{subsection.2.5.3}{Dictionary-Based Approach}{section.2.5}% 24
+\BOOKMARK [2][-]{subsection.2.5.4}{Learning to Measure Distortion Combinations}{section.2.5}% 25
+\BOOKMARK [2][-]{subsection.2.5.5}{Convolutional Neural Networks}{section.2.5}% 26
+\BOOKMARK [2][-]{subsection.2.5.6}{Using Local Binary Patterns}{section.2.5}% 27
+\BOOKMARK [2][-]{subsection.2.5.7}{LBP for the MSCN Image}{section.2.5}% 28
+\BOOKMARK [2][-]{subsection.2.5.8}{LBP for Color Information}{section.2.5}% 29
+\BOOKMARK [2][-]{subsection.2.5.9}{A New Local Binary Pattern}{section.2.5}% 30
+\BOOKMARK [2][-]{subsection.2.5.10}{Describing Structural Information with Various Features}{section.2.5}% 31
+\BOOKMARK [1][-]{section.2.6}{Analysis and Conclusion}{chapter.2}% 32
+\BOOKMARK [0][-]{chapter.3}{The Proposed Method}{}% 33
+\BOOKMARK [1][-]{section.3.1}{Gradient Direction Similarity}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.2}{The NR Method}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.2.1}{Extracting Direction-Based Features}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.2}{Computing the Quality Score}{section.3.2}% 37
+\BOOKMARK [1][-]{section.3.3}{Summary}{chapter.3}% 38
+\BOOKMARK [0][-]{chapter.4}{Experimental Results}{}% 39
+\BOOKMARK [1][-]{section.4.1}{IQA Datasets}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.2}{Evaluation Criteria}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.3}{Evaluating the FR Method}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.4}{Evaluating the NR Method}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.4.1}{Performance on Individual Datasets}{section.4.4}% 44
+\BOOKMARK [2][-]{subsection.4.4.2}{Impact of Training Data}{section.4.4}% 45
+\BOOKMARK [2][-]{subsection.4.4.3}{Generalization Ability}{section.4.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.4}{Computational Complexity}{section.4.4}% 47
+\BOOKMARK [1][-]{section.4.5}{Future Works and Conclusion}{chapter.4}% 48
+\BOOKMARK [0][-]{section*.39}{References}{}% 49

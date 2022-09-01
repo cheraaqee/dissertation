@@ -1,0 +1,677 @@
+\begin{thebibliography}{100}
+
+\bibitem{del}
+{The Zettabyte Era: Trends and Analysis - Cisco, 2018}.
+
+\bibitem{Alakarhu2007}
+Juha Alakarhu.
+\newblock {Image sensors and image quality in mobile phones}.
+\newblock In {\em Proc. 2007 International Image Sensor Workshop}, 2007.
+
+\bibitem{Anegekuh2015}
+Louis Anegekuh, Lingfen Sun, Emmanuel Jammeh, Is~Haka Mkwawa, and Emmanuel
+  Ifeachor.
+\newblock {Content-Based Video Quality Prediction for HEVC Encoded Videos
+  Streamed Over Packet Networks}.
+\newblock {\em IEEE Transactions on Multimedia}, 2015.
+
+\bibitem{Badrinarayanan2017}
+Vijay Badrinarayanan, Alex Kendall, and Roberto Cipolla.
+\newblock {SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image
+  Segmentation}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  39(12):2481--2495, 2017.
+
+\bibitem{borse2014competitive}
+Rushikesh Borse and Prerana Markad.
+\newblock {Competitive analysis of existing image quality assessment methods}.
+\newblock In {\em Advances in Computing, Communications and Informatics
+  (ICACCI, 2014 International Conference on}, pages 1440--1444. IEEE, 2014.
+
+\bibitem{Bosse2018}
+Sebastian Bosse, Dominique Maniry, Klaus-Robert Muller, Thomas Wiegand, and
+  Wojciech Samek.
+\newblock {Deep Neural Networks for No-Reference and Full-Reference Image
+  Quality Assessment}.
+\newblock {\em IEEE Transactions on Image Processing}, 27(1):206--219, jan
+  2018.
+
+\bibitem{Chandler2010}
+Damon~M. Chandler.
+\newblock {Most apparent distortion: full-reference image quality assessment
+  and the role of strategy}.
+\newblock {\em Journal of Electronic Imaging}, 19(1):011006, 2010.
+
+\bibitem{Chandler2013}
+Damon~M. Chandler.
+\newblock {Seven Challenges in Image Quality Assessment: Past, Present, and
+  Future Research}.
+\newblock {\em ISRN Signal Processing}, 2013.
+
+\bibitem{Chandler2007}
+Damon~M. Chandler and Sheila~S. Hemami.
+\newblock {VSNR: A wavelet-based visual signal-to-noise ratio for natural
+  images}.
+\newblock {\em IEEE Transactions on Image Processing}, 2007.
+
+\bibitem{chang2011libsvm}
+Chih-Chung Chang and Chih-Jen Lin.
+\newblock Libsvm: A library for support vector machines.
+\newblock {\em ACM transactions on intelligent systems and technology (TIST)},
+  2(3):27, 2011.
+
+\bibitem{chen2013image}
+Qiwei Chen, Yi~Xu, Chuan Li, Ning Liu, and Xiaokang Yang.
+\newblock {An image quality assessment metric based on quaternion wavelet
+  transform}.
+\newblock In {\em 2013 IEEE International Conference on Multimedia and Expo
+  Workshops (ICMEW)}, pages 1--6. IEEE, 2013.
+
+\bibitem{cheraaqee2019incorporating}
+Pooryaa Cheraaqee, Azadeh Mansouri, and Ahmad Mahmoudi-Aznaveh.
+\newblock Incorporating gradient direction for assessing multiple distortions.
+\newblock In {\em 2019 4th International Conference on Pattern Recognition and
+  Image Analysis (IPRIA)}, pages 109--113. IEEE, 2019.
+
+\bibitem{Chetouani2015}
+Aladine Chetouani.
+\newblock {A Reduced Reference Image Quality assessment for Multiply Distorted
+  Images}.
+\newblock In {\em 2015 IEEE/ACS 12th International Conference of Computer
+  Systems and Applications (AICCSA)}, pages 1--4. IEEE, nov 2015.
+
+\bibitem{Chetouani2016}
+Aladine Chetouani.
+\newblock {An Image Quality Metric with Reference for Multiply Distorted
+  Image}.
+\newblock pages 477--485. Springer, Cham, oct 2016.
+
+\bibitem{Chikkerur2011}
+Shyamprasad Chikkerur, Vijay Sundaram, Martin Reisslein, and Lina~J. Karam.
+\newblock {Objective video quality assessment methods: A classification,
+  review, and performance comparison}.
+\newblock {\em IEEE Transactions on Broadcasting}, 57(2 PART 1):165--182, 2011.
+
+\bibitem{Dabov2007}
+Kostadin Dabov, Alessandro Foi, Vladimir Katkovnik, and Karen Egiazarian.
+\newblock {Image denoising by sparse 3-D transform-domain collaborative
+  filtering}.
+\newblock {\em IEEE Transactions on Image Processing}, 2007.
+
+\bibitem{Dai2018}
+Tao Dai, Ke~Gu, Li~Niu, Yong bing Zhang, Weizhi Lu, and Shu~Tao Xia.
+\newblock {Referenceless quality metric of multiply-distorted images based on
+  structural degradation}.
+\newblock {\em Neurocomputing}, 290:185--195, 2018.
+
+\bibitem{Dalal2005}
+Navneet Dalal and Bill Triggs.
+\newblock {Histograms of oriented gradients for human detection}.
+\newblock In {\em Proceedings - 2005 IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition, CVPR 2005}, 2005.
+
+\bibitem{Friston2010}
+Karl Friston.
+\newblock {The free-energy principle: A unified brain theory?}, 2010.
+
+\bibitem{Fu2016}
+J~Fu, H~Wang, and L~Zuo.
+\newblock {Blind image quality assessment for multiply distorted images via
+  convolutional neural networks}.
+\newblock {\em 2016 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pages 1075--1079, 2016.
+
+\bibitem{Gabarda2007}
+Salvador Gabarda and Gabriel Crist{\'{o}}bal.
+\newblock {Blind image quality assessment through anisotropy}.
+\newblock {\em Journal of the Optical Society of America A}, 2007.
+
+\bibitem{Gaur2014}
+Aarushi Gaur and Krystian Mikolajczyk.
+\newblock {Ranking images based on aesthetic qualities}.
+\newblock In {\em Proceedings - International Conference on Pattern
+  Recognition}, 2014.
+
+\bibitem{Ghadiyaram2016}
+Deepti Ghadiyaram and Alan~C. Bovik.
+\newblock {Massive online crowdsourced study of subjective and objective
+  picture quality}.
+\newblock {\em IEEE Transactions on Image Processing}, 25(1):372--387, 2016.
+
+\bibitem{Gonzalez2008}
+Rafael~C.. Gonzalez and Richard~Eugene Woods.
+\newblock {\em {Digital image processing}}.
+\newblock 2008.
+
+\bibitem{goodman1979multidimensional}
+J~S Goodman and D~E Pearson.
+\newblock {Multidimensional scaling of multiply-impaired television pictures}.
+\newblock {\em IEEE Trans Syst Man Cybern}, 9(6):353--356, 1979.
+
+\bibitem{Griffin2007}
+Lewis~D. Griffin.
+\newblock {The second order local-image-structure solid}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  2007.
+
+\bibitem{Gu2017micromacro}
+Ke~Gu, Leida Li, Hong Lu, Xiongkuo Min, and Weisi Lin.
+\newblock {A fast reliable image quality predictor by fusing micro- and
+  macro-structures}.
+\newblock {\em IEEE Transactions on Industrial Electronics}, 2017.
+
+\bibitem{Gu2013}
+Ke~Gu, Guangtao Zhai, Min Liu, Xiaokang Yang, Wenjun Zhang, Xianghui Sun,
+  Wanhong Chen, and Ying Zuo.
+\newblock {FISBLIM: A FIve-Step BLInd Metric for quality assessment of multiply
+  distorted images}.
+\newblock In {\em SiPS 2013 Proceedings}, pages 241--246. IEEE, oct 2013.
+
+\bibitem{Gu2014}
+Ke~Gu, Guangtao Zhai, Xiaokang Yang, and Wenjun Zhang.
+\newblock {Hybrid no-reference quality metric for singly and multiply distorted
+  images}.
+\newblock {\em IEEE Transactions on Broadcasting}, 60(3):555--567, 2014.
+
+\bibitem{Gupta2018}
+Praful Gupta, Anush~Krishna Moorthy, Rajiv Soundararajan, and Alan~Conrad
+  Bovik.
+\newblock {Generalized Gaussian scale mixtures: A model for wavelet
+  coefficients of natural images}.
+\newblock {\em Signal Processing: Image Communication}, 66:87--94, aug 2018.
+
+\bibitem{Hadizadeh2016}
+Hadi Hadizadeh and Ivan~V. Bajic.
+\newblock {Color Gaussian Jet Features For No-Reference Quality Assessment of
+  Multiply-Distorted Images}.
+\newblock {\em IEEE Signal Processing Letters}, 23(12):1717--1721, dec 2016.
+
+\bibitem{He2012srnss}
+Lihuo He, Dacheng Tao, Xuelong Li, and Xinbo Gao.
+\newblock {Sparse representation for blind image quality assessment}.
+\newblock {\em Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on}, pages 1146--1153, 2012.
+
+\bibitem{Heydari2019}
+M.~Heydari, P.~Cheraaqee, A.~Mansouri, and A.~Mahmoudi-Aznaveh.
+\newblock {A low complexity wavelet-based blind image quality evaluator}.
+\newblock {\em Signal Processing: Image Communication}, 74, 2019.
+
+\bibitem{Ho1998}
+Tin~Kam Ho.
+\newblock {The random subspace method for constructing decision forests}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  1998.
+
+\bibitem{Horita}
+Y~Horita, K~Shibata, Y~Kawayoke, and Z~Sazzad.
+\newblock {MICT image quality assessment database}.
+
+\bibitem{Hughes1996}
+Howard~C. Hughes, George Nozawa, and Frederick Kitterle.
+\newblock {Global precedence, spatial frequency channels, and the statistics of
+  natural images}.
+\newblock {\em Journal of Cognitive Neuroscience}, 1996.
+
+\bibitem{Jayaraman2012}
+Dinesh Jayaraman, Anish Mittal, Anush~K. Moorthy, and Alan~C. Bovik.
+\newblock {Objective quality assessment of multiply distorted images}.
+\newblock In {\em Conference Record - Asilomar Conference on Signals, Systems
+  and Computers}, pages 1693--1697, 2012.
+
+\bibitem{Jurie2005}
+Frederic Jurie and Bill Triggs.
+\newblock {Creating efficient codebooks for visual recognition}.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, 2005.
+
+\bibitem{Kang2014}
+Le~Kang, Peng Ye, Yi~Li, and D~Doermann.
+\newblock {Convolutional Neural Networks for No-Reference Image Quality
+  Assessment}.
+\newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition},
+  pages 1733--1740, 2014.
+
+\bibitem{Kayargadde1996}
+Vishwakumara Kayargadde and Jean-Bernard Martens.
+\newblock {Perceptual characterization of images degraded by blur and noise:
+  model}.
+\newblock {\em Journal of the Optical Society of America A}, 13(6):1178, 1996.
+
+\bibitem{Larsson2006}
+Jonas Larsson, Michael~S. Landy, and David~J. Heeger.
+\newblock {Orientation-selective adaptation to first- and second-order patterns
+  in human visual cortex}.
+\newblock {\em Journal of Neurophysiology}, 2006.
+
+\bibitem{Legge1980}
+G.~E. Legge and J.~M. Foley.
+\newblock {Contrast masking in human vision.}
+\newblock {\em Journal of the Optical Society of America}, 1980.
+
+\bibitem{Li2018a}
+Chaofeng Li, Yifan Li, Yunhao Yuan, Xiaojun Wu, and Qingbing Sang.
+\newblock {Quaternion wavelet transform based full reference image quality
+  assessment for multiply distorted images}.
+\newblock {\em PLOS ONE}, 13(6):e0199430, jun 2018.
+
+\bibitem{Li2015relevant}
+Chaofeng Li, Yu~Zhang, Xiaojun Wu, Wei Fang, and Li~Mao.
+\newblock {Blind multiply distorted image quality assessment using relevant
+  perceptual features}.
+\newblock In {\em 2015 IEEE International Conference on Image Processing
+  (ICIP)}, pages 4883--4886. IEEE, sep 2015.
+
+\bibitem{Li2018access}
+Chaofeng Li, Yu~Zhang, Xiaojun Wu, and Yuhui Zheng.
+\newblock {A multi-scale learning local phase and amplitude blind image quality
+  assessment for multiply distorted images}.
+\newblock {\em IEEE Access}, 2018.
+
+\bibitem{Li2016}
+Qiaohong Li, Weisi Lin, and Yuming Fang.
+\newblock {No-reference quality assessment for multiply-distorted images in
+  gradient domain}.
+\newblock {\em IEEE Signal Processing Letters}, 23(4):541--545, 2016.
+
+\bibitem{lin2010perceptual}
+Weisi Lin and Manish Narwaria.
+\newblock {Perceptual image quality assessment: recent progress and trends}.
+\newblock In {\em Visual Communications and Image Processing 2010}, volume
+  7744, page 774403. International Society for Optics and Photonics, 2010.
+
+\bibitem{linde1981similarity}
+L~Linde.
+\newblock {Similarity of distorted pictures: on the interaction between edge
+  blur and random noise}.
+\newblock {\em FOA Rep. C}, (53004-H9), 1981.
+
+\bibitem{Liu2014a}
+Lixiong Liu, Hongping Dong, Hua Huang, and Alan~C. Bovik.
+\newblock {No-reference image quality assessment in curvelet domain}.
+\newblock {\em Signal Processing: Image Communication}, 29(4):494--505, 2014.
+
+\bibitem{liu2017rankiqa}
+Xialei Liu, Joost van~de Weijer, and Andrew~D Bagdanov.
+\newblock {RankIQA: Learning from Rankings for No-reference Image Quality
+  Assessment}.
+\newblock {\em arXiv preprint arXiv:1707.08347}, 2017.
+
+\bibitem{lu2015no}
+Yanan Lu, Fengying Xie, Tongliang Liu, Zhiguo Jiang, and Dacheng Tao.
+\newblock {No reference quality assessment for multiply-distorted images based
+  on an improved bag-of-words model}.
+\newblock {\em IEEE Signal Processing Letters}, 22(10):1811--1815, 2015.
+
+\bibitem{Ma2017a}
+Kede Ma, Wentao Liu, Kai Zhang, Zhengfang Duanmu, Zhou Wang, and Wangmeng Zuo.
+\newblock {End-to-End Blind Image Quality Assessment Using Deep Neural
+  Networks}, 2017.
+
+\bibitem{Ma2017forest}
+Mengzhu Ma and Chaofeng Li.
+\newblock {Blind multiply distorted image quality assessment using an ensemble
+  random forest}.
+\newblock In {\em 2017 10th International Congress on Image and Signal
+  Processing, BioMedical Engineering and Informatics (CISP-BMEI)}, pages 1--5.
+  IEEE, oct 2017.
+
+\bibitem{Mahmoudpour2017}
+Saeed Mahmoudpour and Peter Schelkens.
+\newblock {Reduced-reference image quality assessment based on internal
+  generative mechanism utilizing shearlets and R{\'{e}}nyi entropy analysis}.
+\newblock In {\em 2017 Ninth International Conference on Quality of Multimedia
+  Experience (QoMEX)}, pages 1--5. IEEE, may 2017.
+
+\bibitem{Mahmoudpour2018}
+Saeed Mahmoudpour and Peter Schelkens.
+\newblock {Reduced-reference quality assessment of multiply-distorted images
+  based on structural and uncertainty information degradation}.
+\newblock {\em Journal of Visual Communication and Image Representation}, 2018.
+
+\bibitem{Manap2015}
+Redzuan~Abdul Manap and Ling Shao.
+\newblock {Non-distortion-specific no-reference image quality assessment: A
+  survey}.
+\newblock {\em Information Sciences}, 2015.
+
+\bibitem{Mansouri2009}
+Azadeh Mansouri, Ahmad~Mahmoudi Aznaveh, Farah Torkamani-Azar, and J.~Afshar
+  Jahanshahi.
+\newblock {Image quality assessment using the singular value decomposition
+  theorem}.
+\newblock {\em Optical Review}, 2009.
+
+\bibitem{Mansouri2019}
+Azadeh Mansouri and Ahmad Mahmoudi-Aznaveh.
+\newblock {SSVD: Structural SVD-based image quality assessment}.
+\newblock {\em Signal Processing: Image Communication}, 2019.
+
+\bibitem{Martin2001}
+David Martin, Charless Fowlkes, Doron Tal, and Jitendra Malik.
+\newblock {A database of human segmented natural images and its application to
+  evaluating segmentation algorithms and measuring ecological statistics}.
+\newblock {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, 2:416--423, 2001.
+
+\bibitem{miao2019quality}
+Xikui Miao, Hairong Chu, Hui Liu, Yao Yang, and Xiaolong Li.
+\newblock Quality assessment of images with multiple distortions based on phase
+  congruency and gradient magnitude.
+\newblock {\em Signal Processing: Image Communication}, 2019.
+
+\bibitem{Miao2019}
+Xikui Miao, Hairong Chu, Hui Liu, Yao Yang, and Xiaolong Li.
+\newblock {Quality assessment of images with multiple distortions based on
+  phase congruency and gradient magnitude}.
+\newblock {\em Signal Processing: Image Communication}, 2019.
+
+\bibitem{Mittal2012a}
+Anish Mittal, Anush~Krishna Moorthy, and Alan~Conrad Bovik.
+\newblock {No-reference image quality assessment in the spatial domain.}
+\newblock {\em IEEE transactions on image processing : a publication of the
+  IEEE Signal Processing Society}, 21(12):4695--708, 2012.
+
+\bibitem{Moorthy2010}
+Anush~Krishna Moorthy and Alan~Conrad Bovik.
+\newblock {A two-step framework for constructing blind image quality indices}.
+\newblock {\em IEEE Signal Processing Letters}, 17(5):513--516, 2010.
+
+\bibitem{Muraleetharan2015}
+B.~Muraleetharan and K.~Thirulogasanthar.
+\newblock {Coherent state quantization of quaternions}.
+\newblock {\em Journal of Mathematical Physics}, 2015.
+
+\bibitem{ngan1986cosine}
+King~N Ngan, Kin~S Leong, and Harcharan Singh.
+\newblock {Cosine transform coding incorporating human visual system model}.
+\newblock In {\em Visual Communications and Image Processing}, volume 707,
+  pages 165--171. International Society for Optics and Photonics, 1986.
+
+\bibitem{Ojala2002}
+Timo Ojala, Matti Pietik{\"{a}}inen, and Topi M{\"{a}}enp{\"{a}}{\"{a}}.
+\newblock {Multiresolution gray-scale and rotation invariant texture
+  classification with local binary patterns}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  24(7):971--987, 2002.
+
+\bibitem{Okarma2014}
+K.~Okarma and K.
+\newblock {Quality Assessment of Images with Multiple Distortions using
+  Combined Metrics}.
+\newblock {\em Elektronika ir Elektrotechnika}, 20(6):128--131, jun 2014.
+
+\bibitem{Pelli2008}
+Denis~G. Pelli and Katharine~A. Tillman.
+\newblock {The uncrowded window of object recognition}, 2008.
+
+\bibitem{Ponomarenko2015}
+Nikolay Ponomarenko, Lina Jin, Oleg Ieremeiev, Vladimir Lukin, Karen
+  Egiazarian, Jaakko Astola, Benoit Vozel, Kacem Chehdi, Marco Carli, Federica
+  Battisti, and C.~C. {Jay Kuo}.
+\newblock {Image database TID2013: Peculiarities, results and perspectives}.
+\newblock {\em Signal Processing: Image Communication}, 30:57--77, 2015.
+
+\bibitem{Ponomarenko2009}
+Nikolay Ponomarenko, Vladimir Lukin, Alexander Zelensky, Karen Egiazarian,
+  Jaakko Astola, Marco Carli, and Federica Battisti.
+\newblock {TID2008-A database for evaluation of full-reference visual quality
+  assessment metrics}.
+\newblock {\em Advances of Modern {\ldots}}, 10(January 2016):30--45, 2009.
+
+\bibitem{Reenu2013}
+M.~Reenu, Dayana David, S.~S. {Aneesh Raj}, and Madhu~S. Nair.
+\newblock {Wavelet based sharp features (WASH): An image quality assessment
+  metric based on HVS}.
+\newblock In {\em Proceedings - 2nd International Conference on Advanced
+  Computing, Networking and Security, ADCONS 2013}, 2013.
+
+\bibitem{Ruderman1994}
+Daniel~L. Ruderman.
+\newblock {The statistics of natural images}.
+\newblock {\em Network: Computation in Neural Systems}, 5(4):517--548, 1994.
+
+\bibitem{Saad2012}
+Michele~a Saad, Alan~C Bovik, and Christophe Charrier.
+\newblock {Blind image quality assessment: a natural scene statistics approach
+  in the DCT domain.}
+\newblock {\em IEEE transactions on image processing : a publication of the
+  IEEE Signal Processing Society}, 21(8):3339--52, 2012.
+
+\bibitem{sharifi1995estimation}
+Karnran Sharifi and Alberto Leon-Garcia.
+\newblock {Estimation of shape parameter for generalized Gaussian distributions
+  in subband decompositions of video}.
+\newblock {\em IEEE Transactions on Circuits and Systems for Video Technology},
+  5(1):52--56, 1995.
+
+\bibitem{Sheikh}
+H~R Sheikh, Z.~Wang, L.~Cormack, and A.C. Bovik.
+\newblock {LIVE Image Quality Assessment Database Release 2}.
+
+\bibitem{Sheikh2005}
+Hamid~Rahim Sheikh, Alan~Conrad Bovik, and Gustavo de~Veciana.
+\newblock {An information fidelity criterion for image quality assessment using
+  natural scene statistics.}
+\newblock {\em IEEE transactions on image processing : a publication of the
+  IEEE Signal Processing Society}, 14(12):2117--2128, 2005.
+
+\bibitem{Sheikh2006}
+H.R. Hamid~Rahim Sheikh and Alan C.~A.C. Bovik.
+\newblock {Image information and visual quality}.
+\newblock {\em IEEE Transactions on Image Processing}, 15(2):430--444, 2006.
+
+\bibitem{smola2004tutorial}
+Alex~J Smola and Bernhard Sch{\"o}lkopf.
+\newblock A tutorial on support vector regression.
+\newblock {\em Statistics and computing}, 14(3):199--222, 2004.
+
+\bibitem{Sun2017}
+Wen Sun, Fei Zhou, and Qingmin Liao.
+\newblock {MDID: A multiply distorted image database for image quality
+  assessment}.
+\newblock {\em Pattern Recognition}, 61:153--168, 2017.
+
+\bibitem{Tang2017}
+Lijuan Tang, Leida Li, Kezheng Sun, Zhifang Xia, Ke~Gu, and Jiansheng Qian.
+\newblock {An efficient and effective blind camera image quality metric via
+  modeling quaternion wavelet coefficients}.
+\newblock {\em Journal of Visual Communication and Image Representation},
+  49:204--212, nov 2017.
+
+\bibitem{Tibshirani1996}
+Robert Tibshirani.
+\newblock {Regression Shrinkage and Selection Via the Lasso}.
+\newblock {\em Journal of the Royal Statistical Society: Series B
+  (Methodological)}, 1996.
+
+\bibitem{torkamani2018image}
+Farah Torkamani-Azar and Jussi Parkkinen.
+\newblock {Image quality assessment using block-based weighted SVD}.
+\newblock {\em Signal, Image and Video Processing}, 12(7):1337--1344, 2018.
+
+\bibitem{traore2014reduced}
+Albekaye Traor{\'{e}}, Philippe Carr{\'{e}}, and Christian Olivier.
+\newblock {Reduced-reference metric based on the quaternionic wavelet
+  coefficients modeling by information criteria}.
+\newblock In {\em 2014 IEEE International Conference on Image Processing
+  (ICIP)}, pages 526--530. IEEE, 2014.
+
+\bibitem{VanDeWeijer2006}
+Joost {Van De Weijer}, Theo Gevers, and Andrew~D. Bagdanov.
+\newblock {Boosting color saliency in image feature detection}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  2006.
+
+\bibitem{Vapnik1995}
+V~N Vapnik.
+\newblock {The Nature of Statistical Learning Theory}, 1995.
+
+\bibitem{VQEG2000}
+VQEG.
+\newblock {Final report from the video quality experts group on the validation
+  of objective quality metrics for video quality assessment}, 2000.
+
+\bibitem{wang2019blind}
+Zhongling Wang, Shahrukh Athar, and Zhou Wang.
+\newblock {Blind Quality Assessment of Multiply Distorted Images Using Deep
+  Neural Networks}.
+\newblock In {\em International Conference on Image Analysis and Recognition},
+  pages 89--101. Springer, 2019.
+
+\bibitem{Wang2002a}
+Zhou Wang and Alan~C. Bovik.
+\newblock {A universal image quality index}.
+\newblock {\em IEEE Signal Processing Letters}, 2002.
+
+\bibitem{Wang2009}
+Zhou Wang and Alan~C Bovik.
+\newblock {Mean Squared Error : Love It or Leave It ?}
+\newblock {\em IEEE Signal Processing Magazine}, 2009.
+
+\bibitem{Wang2002}
+Zhou Wang, Alan~C. Bovik, and Ligang Lu.
+\newblock {Why is image quality assessment so difficult?}
+\newblock {\em ICASSP, IEEE International Conference on Acoustics, Speech and
+  Signal Processing - Proceedings}, 2002.
+
+\bibitem{Wang2004}
+Zhou Wang, Alan~Conrad Bovik, Hamid~Rahim Sheikh, and Eero~P. Simoncelli.
+\newblock {Image quality assessment: From error visibility to structural
+  similarity}.
+\newblock {\em IEEE Transactions on Image Processing}, 13(4):600--612, 2004.
+
+\bibitem{Wu2015}
+Jinjian Wu, Weisi Lin, Guangming Shi, Yazhong Zhang, Weisheng Dong, and Zhibo
+  Chen.
+\newblock {Visual Orientation Selectivity Based Structure Description}.
+\newblock {\em IEEE Transactions on Image Processing}, 2015.
+
+\bibitem{Xu2016}
+Jingtao Xu, Peng Ye, Qiaohong Li, Haiqing Du, Yong Liu, and David Doermann.
+\newblock {Blind image quality assessment based on high order statistics
+  aggregation}.
+\newblock {\em IEEE Transactions on Image Processing}, 25(9):4444--4457, 2016.
+
+\bibitem{xu2017no}
+Shaoping Xu, Shunliang Jiang, and Weidong Min.
+\newblock {No-reference/blind image quality assessment: a survey}.
+\newblock {\em IETE Technical Review}, 34(3):223--245, 2017.
+
+\bibitem{xue2014blind}
+Wufeng Xue, Xuanqin Mou, Lei Zhang, Alan~C Bovik, and Xiangchu Feng.
+\newblock {Blind image quality assessment using joint statistics of gradient
+  magnitude and Laplacian features}.
+\newblock {\em IEEE Transactions on Image Processing}, 23(11):4850--4862, 2014.
+
+\bibitem{Xue2013}
+Wufeng Xue, Lei Zhang, and Xuanqin Mou.
+\newblock {Learning without human scores for blind image quality assessment}.
+\newblock In {\em Proceedings of the IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition}, pages 995--1002, 2013.
+
+\bibitem{Xue2014}
+Wufeng Xue, Lei Zhang, Xuanqin Mou, and Alan~C. Bovik.
+\newblock {Gradient magnitude similarity deviation: A highly efficient
+  perceptual image quality index}.
+\newblock {\em IEEE Transactions on Image Processing}, 23(2):668--695, 2014.
+
+\bibitem{Ye2012b}
+Peng Ye, J~Kumar, Le~Kang, and D~Doermann.
+\newblock {Unsupervised feature learning framework for no-reference image
+  quality assessment}.
+\newblock {\em Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on}, pages 1098--1105, 2012.
+
+\bibitem{Yue2018}
+Guanghui Yue, Chunping Hou, Ke~Gu, Nam Ling, and Beichen Li.
+\newblock {Analysis of Structural Characteristics for Quality Assessment of
+  Multiply Distorted Images}.
+\newblock {\em IEEE Transactions on Multimedia}, 2018.
+
+\bibitem{Zhai2008}
+Guangtao Zhai, Jianfei Cai, Weisi Lin, Xiaokang Yang, Wenjun Zhang, and Minora
+  Etoh.
+\newblock {Cross-dimensional perceptual quality assessment for low bit-rate
+  videos}.
+\newblock {\em IEEE Transactions on Multimedia}, 2008.
+
+\bibitem{Zhang2011}
+Fan Zhang, Lin Ma, Songnan Li, and King~Ngi Ngan.
+\newblock {Practical image quality metric applied to image coding}.
+\newblock {\em IEEE Transactions on Multimedia}, 2011.
+
+\bibitem{Zhang2014}
+Lin Zhang, Zhongyi Gu, Xiaoxu Liu, Hongyu Li, and Jianwei Lu.
+\newblock {Training quality-aware filters for no-reference image quality
+  assessment}.
+\newblock {\em IEEE Multimedia}, 21(4):67--75, 2014.
+
+\bibitem{Zhang2014a}
+Lin Zhang, Ying Shen, and Hongyu Li.
+\newblock {VSI: A visual saliency-induced index for perceptual image quality
+  assessment}.
+\newblock {\em IEEE Transactions on Image Processing}, 23(10):4270--4281, 2014.
+
+\bibitem{Zhang2011a}
+Lin Zhang, Lei Zhang, Xuanqin Mou, and David Zhang.
+\newblock {FSIM: A feature similarity index for image quality assessment}.
+\newblock {\em IEEE Transactions on Image Processing}, 20(8):2378--2386, 2011.
+
+\bibitem{Zhang2015b}
+Peng Zhang, Wengang Zhou, Lei Wu, and Houqiang Li.
+\newblock {SOM: Semantic obviousness metric for image quality assessment}.
+\newblock In {\em Proceedings of the IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition}, volume 07-12-June, pages
+  2394--2402, 2015.
+
+\bibitem{Zhang2013desique}
+Yi~Zhang and Damon~M. Chandler.
+\newblock {An algorithm for no-reference image quality assessment based on
+  log-derivative statistics of natural scenes}.
+\newblock {\em Image Quality and System Performance}, 8653:86530J, 2013.
+
+\bibitem{Zhang2018}
+Yi~Zhang, Damon~M. Chandler, and Senior Member.
+\newblock {Opinion-Unaware Blind Quality Assessment of Multiply and Singly
+  Distorted Images via Distortion Parameter Estimation}.
+\newblock {\em IEEE Transactions on Image Processing}, PP(c):1, nov 2018.
+
+\bibitem{Zhang2014cdiivine}
+Yi~Zhang, Anush~K. Moorthy, Damon~M. Chandler, and Alan~C. Bovik.
+\newblock {C-DIIVINE: No-reference image quality assessment based on local
+  magnitude and phase statistics of natural scenes}.
+\newblock {\em Signal Processing: Image Communication}, 2014.
+
+\bibitem{zhang2019full}
+Yin Zhang, Xuehan Bai, Junhua Yan, Yongqi Xiao, Wanyi Zhang, C~R Chatwin, and
+  R~C~D Young.
+\newblock {A full-reference image quality assessment for multiply distorted
+  image based on visual mutual information}.
+\newblock {\em Journal of Imaging Science and Technology}, 2019.
+
+\bibitem{Zheng2009}
+Liping Zheng, Hua Jiang, Quanke Pan, and Guangyao Li.
+\newblock {Medical image segmentation based on an improved 2D entropy}.
+\newblock In {\em ICCIT 2009 - 4th International Conference on Computer
+  Sciences and Convergence Information Technology}, 2009.
+
+\bibitem{Zhou2019}
+Wujie Zhou, Lu~Yu, Yaguan Qian, Weiwei Qiu, Yang Zhou, and Ting Luo.
+\newblock {Deep blind quality evaluator for multiply distorted images based on
+  monogenic binary coding}.
+\newblock {\em Journal of Visual Communication and Image Representation}, 2019.
+
+\bibitem{Zhou2018}
+Yu~Zhou, Leida Li, Jinjian Wu, Ke~Gu, Weisheng Dong, and Guangming Shi.
+\newblock {Blind quality index for multiply distorted images using biorder
+  structure degradation and nonlocal statistics}.
+\newblock {\em IEEE Transactions on Multimedia}, 2018.
+
+\bibitem{Zoran2009}
+Daniel Zoran and Yair Weiss.
+\newblock {Scale invariance and noise in natural images}.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, 2009.
+
+\end{thebibliography}

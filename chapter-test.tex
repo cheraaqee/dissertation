@@ -1,0 +1,261 @@
+% ========================================
+\chapter{Experimental Results}
+% =========================================
+As discussed in Chapter 1, the ultimate goal of objective IQA algorithms, is to replace human assessments, so the accuracy and speed of these algorithms must be evaluated. Evaluations are done using the subject-rated images in IQA datasets and according to a few testing conventions. In this chapter we introduce the datasets and evaluation criteria, then we will report and compare the performance of the proposed methods.
+\section{IQA Datasets}
+Three datasets are common for multiply distorted images, MLIVE~\cite{Jayaraman2012}, MDID2013~\cite{Gu2014}, and MDID2016~\cite{Sun2017}. Each image in MLIVE falls into one of the following six categories:
+\begin{itemize}
+    \item It is not distorted (it is a reference image).
+    \item It is blurred (singly-distorted).
+    \item It has blocking effect because of JPEG compression (singly-distorted).
+    \item It is noisy (singly-distorted).
+    \item It is blurry with JPEG artifact (multiply-distorted).
+    \item It is blurry and noisy (multiply-distorted).
+\end{itemize}
+So only two multiple-distortion are present in MLIVE, [blur+JPEG] and [blur+noise]. The severity of these distortions will vary for different distorted versions. There are two folders in MLIVE, ``blurjpeg" and ``blurnoise". In each folder, there are 15 reference images and 225 distorted images, it will be 15 distorted versions for each reference. The type and severity of the artifacts in each contaminated version is summarized in table~\ref{tbl:blurjpeg}. Table~\ref{tbl:blurnoise} gives the same information for folder ``blurnoise". The reference images are identical in the two folders. The order of applying the artifacts in multiply-distorted images was in a way to consider the mutual effect, that is, the images are first blurred and then the second artifact is applied.
+% ======================table (BlurJpeg) +++++++++++
+\begin{sidewaystable}[htb]
+    \caption{Severity of Blur and JPEG for 15 Distorted Versions of a Reference Image in `blurjpeg' Folder. Six of these 15 versions are singly-distorted (the severity of one distortion is zero) and 9 are multiply-distorted}
+    \label{tbl:blurjpeg}
+  \bigskip
+    \centering\scriptsize\setlength\tabcolsep{2pt}
+        \hspace*{-1cm}\begin{tabular}{m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}}
+           %\toprule
+             &Version \#1&Version \#2&Version \#3&Version \#4&Version \#5&Version \#6&Version \#7&Version \#8&Version \#9&Version \#10&Version \#11&Version \#12&Version \#13&Version \#14&Version \#15 \\
+           %\midrule
+           \hline
+              Blur Level& 1&2&3&1&2&3&1&2&3&1&2&3&0&0&0\\
+              %\hline
+             JPEG Level& 0&0&0&1&1&1&2&2&2&3&3&3&1&2&3\\
+        \end{tabular}\hspace*{-1cm}
+\end{sidewaystable}
+
+\begin{sidewaystable}[htb]
+    \caption{Severity of Blur and Noise for 15 Distorted Versions of a Reference Image in `blurnoise' Folder.}
+    \label{tbl:blurnoise}
+  \bigskip
+    \centering\scriptsize\setlength\tabcolsep{2pt}
+        \hspace*{-1cm}\begin{tabular}{m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}}
+           %\toprule
+             &Version \#1&Version \#2&Version \#3&Version \#4&Version \#5&Version \#6&Version \#7&Version \#8&Version \#9&Version \#10&Version \#11&Version \#12&Version \#13&Version \#14&Version \#15 \\
+           %\midrule
+           \hline
+              Blur Level& 1&2&3&1&2&3&1&2&3&1&2&3&0&0&0\\
+              %\hline
+             Noise Level& 0&0&0&1&1&1&2&2&2&3&3&3&1&2&3\\
+        \end{tabular}\hspace*{-1cm}
+\end{sidewaystable}
+
+MDID2013 has 12 reference images that are contaminated with 3 artifacts. Each distorted image in MDID2013 is simultaneously blurred, noisy, and compressed with lossy JPEG. There are 3 various levels for each noise, so there will be $3\times3=27$ distorted versions for each reference. 
+
+The number of distorted images increases to 1600 in MDID2016. They are the result of applying 5 types of distortions to 20 references. There are 80 distorted versions for each reference. Type and severity of distortions varies in these 80 versions. `blur', `noise', `JPEG', `JPEG2000', and `contrast change' are the set of all distortions. For each of the 80 versions, a random selection of them is applied with a random severity.
+\section{Evaluation Criteria}
+The performance of an algorithm is evaluated from the two aspects of speed and accuracy. For measuring the accuracy, statistical correlation indexes, such as SROCC, PLCC, and KROCC, are used. These indexes are calculated for the scores of the algorithm and the subjective scores. SROCC and KROCC measure the scores monotonicity, PLCC measures the accuracy, and RMSE can measure the consistency of predictions.
+
+For evaluating the methods that use trainable models, a 80-20 division of the dataset is usually considered, that is, they train the model on 80\% of the dataset and leave the other 20\% for test. In IQA datasets, the distorted versions of a reference image comprise a `scene'. Considering MDID2013 as an example, it has 12 scenes that each of them has 27 members (there are 12 references that each of them has 27 distorted versions). When training a model on MDID2013, 10 ($=\lceil0.8\times12\rceil$) scenes will be randomly selected for training and the other 2 scenes for testing. For cross-validation, the 80-20 division will be performed 1000 times. The median of the 1000 test results will be reported as the final performance. 
+
+To further assess an algorithm, the train portion in the 80-20 division can be reduced. It means that we can test the algorithm for 70-30, 60-40, 50-50, or 40-60 divisions. If the proposed features are effective, the model's performance will be less affected by reducing the training data.
+
+The generalization ability is also vital. If the features are effective, the over-fit problem will be alleviated and the model can be generalize to the samples outside the dataset. It is observed that the performance of the models drop significantly when they are trained on one dataset and tested on another one.
+
+The run-time of the algorithms is usually reported as the average time for images of a dataset with a certain spatial resolution. For FR methods, the time required to compute the score will be measured and for NR algorithm, the time for extracting the feature vector will be reported as the computational complexity.
+\section{Evaluating the FR Method}
+The accuracy of the proposed FR method for MLIVE, MDID2013, and MDID2016 datasets is reported in table~\ref{tbl:fr_acc}. The algorithm is tested for the two modes of $180^{\circ}$ and $360^{\circ}$ ($180^{\circ}$ designates that the ablsolute value of tangent inverse is considered). The accuracy of single-distortion methods is also included for comparison. The run-time of algorithms is shown in table~\ref{tbl:run_fr}.
+
+\begin{sidewaystable}[htb]
+    \caption{The Accuracy of the Proposed Method and Other FR Algorithms}
+    \label{tbl:fr_acc}
+  \bigskip
+    \centering\footnotesize\setlength\tabcolsep{2pt}
+        \hspace*{-1cm}\begin{tabular}{m{2cm}|c||c|c|c|c||c|c|c|m{1.2cm}|m{1cm}}
+           %\toprule
+           %-----------------------------------
+             \textbf{Dataset}&\textbf{Index}&PSNR&SSIM~\cite{Wang2004}&GMSD~\cite{Xue2014}&VIF~\cite{Sheikh2006}&Chetouani2015~\cite{Chetouani2015}&MDIQA~\cite{zhang2019full}&QWT-IQA~\cite{Li2018a}&Propsed Method (360)&Proposed Method (180)\\
+             \hline\hline
+             %---------------------------------
+             \multirow{4}{4em}{MLIVE (blur+JPEG)}&\textbf{SROCC}&0.6621&0.8488&0.8470&0.8788&0.9059&0.9054&0.9003&0.8609&0.8697\\[1ex]
+             &\textbf{PLCC}&0.7246&0.7971&0.8947&0.9052&0.9371&0.9273&0.9262&0.9097&0.9173\\[1ex]
+             &\textbf{RMSE}&13.2046&19.6387&8.5598&8.1427&6.7182&7.1264&7.2260&7.9582&7.6291\\[1ex]
+             &\textbf{KROCC}&0.4775&0.6520&0.6559&0.6922&0.7394&0.7309&0.7225&0.6730&0.6836\\[1ex]
+             \hline\hline
+             %-----------------------------
+             \multirow{4}{4em}{MLIVE (blur+noise)}&\textbf{SROCC}&0.7088&0.8760&0.8366&0.8807&0.9203&0.9149&0.9058&0.8709&0.8692\\[1ex]
+             &\textbf{PLCC}&0.7752&0.8333&0.8674&0.8492&0.9377&0.9298&0.9174&0.8572&0.8538\\[1ex]
+             &\textbf{RMSE}&11.7851&10.3120&9.2817&9.8499&6.3548&7.0071&7.4238&9.6079&9.7125\\[1ex]
+             &\textbf{KROCC}&0.5290&0.6867&0.6405&0.6930&0.7610&0.7473&0.7291&0.6815&0.6774\\[1ex]
+             \hline\hline
+             %-----------------------------
+             \multirow{4}{4em}{MLIVE (ALL)}&\textbf{SROCC}&0.6771&0.8604&0.8448&0.8823&0.9071&-&0.9043&0.8684&0.8726\\[1ex]
+             &\textbf{PLCC}&0.7398&0.8125&0.8808&0.8723&0.9305&-&0.9203&0.8584&0.8616\\[1ex]
+             &\textbf{RMSE}&12.7238&11.0238&8.9533&9.2487&6.8669&-&7.4036&9.7019&9.5986\\[1ex]
+             &\textbf{KROCC}&0.5003&0.6695&0.6548&0.6970&0.7433&-&0.7294&0.6828&0.6857\\[1ex]
+             \hline\hline
+             %-----------------------------
+             \multirow{4}{4em}{MDID2013}&\textbf{SROCC}&0.5604&0.4873&0.8283&0.8444&-&-&0.7794&0.8477&0.8599\\[1ex]
+             &\textbf{PLCC}&0.5647&0.5425&0.8307&0.8218&-&-&0.7896&0.8397&0.8512\\[1ex]
+             &\textbf{RMSE}&0.0419&0.0427&0.0283&0.0290&-&-&0.0312&0.0276&0.0267\\[1ex]
+             &\textbf{KROCC}&0.3935&0.3360&0.6240&0.6438&-&-&0.5617&0.6448&0.6632\\[1ex]
+             \hline\hline
+             %-----------------------------
+             \multirow{4}{4em}{MDID2016}&\textbf{SROCC}&0.5784&0.8328&0.8613&0.9306&0.9500&0.9031&0.8299&0.8871&0.8987\\[1ex]
+             &\textbf{PLCC}&0.6164&0.8457&0.8543&0.9367&0.9547&0.8934&0.8379&0.8975&0.9090\\[1ex]
+             &\textbf{RMSE}&1.7350&1.1757&1.1452&0.7717&0.6581&0.9901&1.2026&0.9715&0.9186\\[1ex]
+             &\textbf{KROCC}&0.4119&0.6446&0.6790&0.7714&0.8046&0.7209&0.6355&0.7068&0.7222\\[1ex]
+             \hline\hline
+             
+           %\midrule
+        \end{tabular}\hspace*{-1cm}
+\end{sidewaystable}
+\begin{sidewaystable}[htb]
+    \caption{The Algorithms' Run-Time }
+    \label{tbl:run_fr}
+  \bigskip
+    \centering\footnotesize\setlength\tabcolsep{2pt}
+        \hspace*{-1cm}\begin{tabular}{m{3cm}||c|c|c|c|c|c|c|m{1.2cm}|m{1cm}}
+           %\toprule
+             &PSNR&SSIM~\cite{Wang2004}&GMSD~\cite{Xue2014}&VIF~\cite{Sheikh2006}&Chetouani2015~\cite{Chetouani2015}&MDIQA~\cite{zhang2019full}&QWT-IQA~\cite{Li2018a}&Propsed Method (360)&Proposed Method (180)\\
+             \hline\hline
+             Absolute \newline Run-Time (s)&0.0041&0.0271&0.0233&2.4458&5.3271&-&-&0.0321&0.0338\\[1ex]
+             \hline
+             Relative \newline Run-Time \newline (to PSNR)&1&7&6&445&969&1035&11&8&8\\[1ex]
+             \hline
+             Accuracy&0.5784&0.8328&0.8613&0.9306&0.9500&0.9031&0.8299&0.8871&0.8987\\[1ex]
+             \hline\hline
+        \end{tabular}\hspace*{-1cm}
+\end{sidewaystable}
+
+For a fair comparison of computational complexity, the author-provided codes are required which may not be available. For such cases, we reported a relative run-time. As in~\cite{wang2019blind}, if a method has reported its run-time along with a third method, and we have the code of the third method, we can compare the speed of our algorithms in relevance to the common code. In the second row of the table~\ref{tbl:run_fr}, we have provided the relative run-time of the algorithms to that of the PSNR. For Chetouani's~\cite{Chetouani2015} method, we considered the time needed for extracting the feature vector. The experiments were carried out on a Windows laptop with a 2.0GHz CPU and 12GB of RAM in MATLAB. MLIVE images were used for measuring the average speed. 
+
+Chetouani2015~\cite{Chetouani2015} extracts a feature vector out of two images and uses a trainable model, hence, it is capable of estimating the joint effect and achieving a high accuracy. The other methods compute the score using mathematical relations and directly model the joint and mutual effects.Therefore, its expected that they be inferior to the accuracy of Chetouani2015~\cite{Chetouani2015}. However, the method in~\cite{Chetouani2015} needs to execute VIF, IFC, WASH, and SSIM for each image. Any time~\cite{Chetouani2015} runs, our algorithm can assess 150 images. The same holds for MDIQA and VIF. Despite a higher accuracy, the proposed method is 74 times and 170 times faster than MDIQA and VIF, respectively. 
+
+Incorporating gradient directions caused the improvement of prediction monotonicity for all datasets in comparison to GMSD. QWT-IQA is more accurate on MLIVE, but it is considerably more complex. However, its accuracy is inferior to the proposed method for MDID2013 and MDID2016. Clearly the proposed FR method has been successful in achieving an acceptable trade-off between complexity and speed.
+\section{Evaluating the NR Method}
+Similar to the FR method, the proposed NR algorithm will be assessed regarding its speed and accuracy. Since, this algorithm uses a trainable model, we evaluate and compare its generality and robustness in separate sections. \subsection{Performance on Individual Datasets}
+In this experiment, 80\% of the scenes in a dataset are used for training and 20\% for testing. For cross validation, the mentioned procedure is performed 1000 times. The scenes for train and test are randomly selected each time. The median of these 1000 tests will be reported. In table~\ref{tbl:nr_acc}, we see the SROCC, PLCC, RMSE, and KROCC indexes for the proposed method. The results for other method is quoted from authors' reports. The weighted average of correlation indexes is provided in the last three rows, where the weight of each dataset equals its number of images.
+
+BOSS~\cite{Zhou2018} has the superior performance among the compared methods and its model accurately predicts the quality of MDID2013. According to the results, MDID2016 seems challenging because non of the previous methods has reached 90\% precision. The proposed method has the best performance for MDID2016, which outnumbers the other datasets in terms of distortions and scenes. Although it is inferior to BOSS, the proposed method surpasses other algorithms in the overall evaluation.
+\begin{sidewaystable}[htb]
+    \caption{The Performance of NR Methods on Individual Datasets (MLIVE, MDID2013, and MDID2016).}
+    \label{tbl:nr_acc}
+  \bigskip
+    \centering\footnotesize\setlength\tabcolsep{2pt}
+        \hspace*{-1cm}\begin{tabular}{m{1.7cm}|c||c|c|c|c|c|c|m{1cm}}
+           %\toprule
+           %-----------------------------------
+             \textbf{Dataset}&\textbf{Index}&FISBLIM~\cite{Gu2013}&SISBLIM~\cite{Gu2014}&Monogenic~\cite{Zhou2019}&Jet-LBP~\cite{Hadizadeh2016}&BOSS~\cite{Zhou2018}&GWH-GLBP~\cite{Li2016}&Proposed Method\\
+             \hline\hline
+             %---------------------------------
+             \multirow{4}{4em}{MLIVE}&\textbf{SROCC}&0.8574&0.8572&0.943&0.953&0.9529&0.9437&0.9432\\[1ex]
+             &\textbf{PLCC}&0.8808&0.8652&0.951&0.956&0.9549&0.9494&0.9496\\[1ex]
+             &\textbf{RMSE}&8.9540&9.4836&5.747&5.510&5.6436&5.8660&5.8726\\[1ex]
+             &\textbf{KROCC}&0.6700&0.6606&0.747&-&0.8184&0.7978&0.7968\\[1ex]
+             \hline\hline
+             %---------------------------
+             \multirow{4}{4em}{MDID2013}&\textbf{SROCC}&0.776&0.6934&0.907&0.921&0.9446&0.8967&0.9141\\[1ex]
+             &\textbf{PLCC}&0.7802&0.7099&0.919&0.920&0.9502&0.9121&0.9273\\[1ex]
+             &\textbf{RMSE}&0.0318&0.0358&0.019&0.016&0.0158&0.0197&0.0177\\[1ex]
+             &\textbf{KROCC}&0.5737&0.4947&0.698&-&0.8010&0.7219&0.7393\\[1ex]
+             \hline\hline
+             % ------------------------
+             \multirow{4}{4em}{MDID2016}&\textbf{SROCC}&0.588&0.6545&-&0.8536&0.8969&0.8901&0.9008\\[1ex]
+             &\textbf{PLCC}&0.4969&0.6313&-&0.8591&0.8997&0.8903&0.9050\\[1ex]
+             &\textbf{RMSE}&1.9122&1.7089&-&1.1220&0.9824&0.9902&0.9354\\[1ex]
+             &\textbf{KROCC}&0.4306&0.4717&-&-&0.7101&0.7016&0.7196\\[1ex]
+             \hline\hline
+             %----------------------
+             \multirow{4}{4em}{Weighted Average}&\textbf{SROCC}&0.6647&0.6982&-&0.8816&0.9140&0.9012&0.9107\\[1ex]
+             &\textbf{PLCC}&0.6083&0.6864&-&0.8858&0.9171&0.9045&0.9165\\[1ex]
+             &\textbf{KROCC}&0.4955&0.5106&-&-&0.7430&0.7226&0.7369\\[1ex]
+             \hline\hline
+           %\midrule
+        \end{tabular}\hspace*{-1cm}
+\end{sidewaystable}
+\subsection{Impact of Training Data}
+To inspect the impact of reducing the training data, we performed the previous experiments with the following portions of train-test data: 70-30, 60-40, 50-50, and 40-60. As it is seen in table~\ref{tbl:6040}, the proposed features are much more robust to reducing the training data in comparison to~\cite{Li2016}. Although the SVD\footnote{Singular Value Decomposition}-based method in~\cite{Zhou2018} outperforms the proposed method, our features are still comparable to the rich feature set of BOSS~\cite{Zhou2018}.
+\begin{sidewaystable}[htb]
+    \caption{The Results for Changing the Ratio of Training Data.}
+    \label{tbl:6040}
+  \bigskip
+    \centering\footnotesize\setlength\tabcolsep{2pt}
+        \hspace*{-1cm}\begin{tabular}{m{1.7cm}|c||c|c|c|c||c|c|c|c||c|c|c|c}
+           %\toprule
+           %----------------------------------
+             \multicolumn{2}{c||}{}&\multicolumn{4}{c||}{Proposed Method}&\multicolumn{4}{c||}{GWH-GLBP~\cite{Li2016}}&\multicolumn{4}{c}{BOSS~\cite{Zhou2018}}\\[1ex]
+             \hline\hline
+             \textbf{Dataset}&\textbf{Ratio}&\textbf{SROCC}&\textbf{KROCC}&\textbf{PLCC}&\textbf{RMSE}&\textbf{SROCC}&\textbf{KROCC}&\textbf{PLCC}&\textbf{RMSE}&\textbf{SROCC}&\textbf{KROCC}&\textbf{PLCC}&\textbf{RMSE}\\[1ex]
+             \hline\hline
+             \multirow{5}{4em}{MDID2013}&\textbf{80-20}&0.9141&0.7393&0.9273&0.0177&0.8967&0.7219&0.9121&0.0197&0.9446&0.8010&0.9501&0.0153\\[1ex]
+             &\textbf{70-30}&0.8639&0.6708&0.8769&0.0241&0.8317&0.6449&0.8585&0.0242&0.9337&0.7773&0.9371&0.0177\\[1ex]
+             &\textbf{60-40}&0.8524&0.6528&0.8614&0.0257&0.6642&0.4668&0.6623&0.0377&0.9298&0.7678&0.9320&0.0182\\[1ex]
+             &\textbf{50-50}&0.8411&0.6408&0.8457&0.0270&0.6319&0.4690&0.6160&0.0379&0.9236&0.7576&0.9266&0.0192\\[1ex]
+             &\textbf{40-60}&0.8296&0.6262&0.8322&0.0279&0.4260&0.2926&0.4666&0.0446&0.9088&0.7331&0.9104&0.0209\\[1ex]
+             \hline\hline
+             \multirow{5}{4em}{MLIVE}&\textbf{80-20}&0.9432&0.7968&0.9496&5.8726&0.9437&0.7978&0.9494&5.8660&0.9529&0.8184&0.9549&5.6436\\[1ex]
+             &\textbf{70-30}&0.9370&0.7795&0.9403&6.4530&0.8073&0.6397&0.8149&11.1371&0.9403&0.7901&0.9457&6.1659\\[1ex]
+             &\textbf{60-40}&0.9191&0.7527&0.9239&7.1566&0.7924&0.5974&0.7842&12.2011&0.9413&0.7880&0.9443&6.2453\\[1ex]
+             &\textbf{50-50}&0.9135&0.7432&0.9183&7.4310&0.6573&0.4697&0.6477&14.4161&0.9367&0.7795&0.9371&6.5934\\[1ex]
+             &\textbf{40-60}&0.8990&0.7202&0.9053&8.0136&0.3272&0.2283&0.4131&17.4939&0.9267&0.7615&0.9286&6.9858\\[1ex]
+             \hline\hline
+             \multirow{5}{4em}{MDID2016}&\textbf{80-20}&0.9008&0.7196&0.9050&0.9354&0.8901&0.7016&0.8903&0.9902&0.8969&0.7101&0.8997&0.9824\\[1ex]
+             &\textbf{70-30}&0.8932&0.7069&0.8961&0.9746&0.8268&0.6231&0.8304&1.2316&0.8932&0.7098&0.8951&0.9877\\[1ex]
+             &\textbf{60-40}&0.8853&0.6951&0.8888&1.0099&0.8178&0.6175&0.8185&1.2597&0.8836&0.7005&0.8895&0.9908\\[1ex]
+             &\textbf{50-50}&0.8758&0.6816&0.8791&1.0502&0.8135&0.6092&0.8134&1.2839&0.8801&0.6945&0.8804&1.0626\\[1ex]
+             &\textbf{40-60}&0.8639&0.6658&0.8671&1.0985&0.7058&0.5360&0.7164&1.5307&0.8771&0.6895&0.8753&1.0816\\[1ex]
+             \hline\hline
+             
+             \end{tabular}\hspace*{-1cm}
+\end{sidewaystable}
+
+\subsection{Generalization Ability}
+The real-world images may differ from those of the datasets, so it is very important that a trained model be applicable to samples outside the training set. To test this, considering the three multiply-distorted datasets, the following experiment was conducted. We trained the model on a whole dataset, a test it using the other two. Unlike the previous tests, the train-test procedure is done only once, not 1000 times. Table~\ref{tbl:generality} shows the SROCC indexes. It is demonstrated that the proposed algorithm has the superior generalization ability. Although BOSS~\cite{Zhou2018} employs a variety of complex features, the gradient direction-based features are less dependent on the training data.
+\begin{sidewaystable}[htb]
+    \caption{SROCC Indexes for Cross-Dataset Evaluation.}
+    \label{tbl:generality}
+  \bigskip
+    \centering\footnotesize\setlength\tabcolsep{2pt}
+        \hspace*{-1cm}\begin{tabular}{c|c||c|c|c|c}
+           %\toprule
+           %-----------------------------------
+             \textbf{Dataset for Train}&\textbf{Dataset for Test}&Proposed Method&GWH-GLBP~\cite{Li2016}&Jet-LBP~\cite{Hadizadeh2016}&BOSS~\cite{Zhou2018}
+             \\
+             \hline\hline
+             \multirow{2}{4em}{MLIVE}&MDID2013&0.8211&0.6587&0.7466&0.7939\\[1ex]
+             &MDID2016&0.7588&0.5524&0.7307&0.5986\\[1ex]
+             \hline\hline
+             \multirow{2}{4em}{MDID2013}&MLIVE&0.7199&0.204&0.4062&0.7756\\[1ex]
+             &MDID2016&0.7138&0.3099&0.1583&0.4207\\[1ex]
+             \hline\hline
+             \multirow{2}{4em}{MDID2016}&MLIVE&0.8851&0.7505&0.8866&0.7680\\[1ex]
+             &MDID2013&0.8220&0.7403&0.8087&0.7122\\[1ex]
+             \hline\hline
+             
+             \end{tabular}\hspace*{-1cm}
+\end{sidewaystable}
+\subsection{Computational Complexity}
+The average time for extracting a feature vector for MLIVE images of size $1280\times 720$ is reported in table~\ref{tbl:run_nr}. The major opponent of our method in terms of accuracy is BOSS~\cite{Zhou2018}. It is better in learning individual datasets and inferior to our method regarding generality. It is seen from table~\ref{tbl:run_nr} that the proposed method is simultaneously accurate and fast. No time complexity is reported for BOSS\cite{Zhou2018} and no implementatin is provided by the authors. However, according to its use of SVD and DCT statistics, it is computationally more intense than a spatial-domain method.
+\begin{sidewaystable}[htb]
+    \caption{Methods' Time Complexity}
+    \label{tbl:run_nr}
+  \bigskip
+    \centering\footnotesize\setlength\tabcolsep{2pt}
+        \hspace*{-1cm}\begin{tabular}{c||c|c|c}
+           %\toprule
+           %-----------------------------------
+             &Proposed Method&GWH-GLBP~\cite{Li2016}&Jet-LBP~\cite{Hadizadeh2016}
+             \\[1ex]
+             \hline\hline
+             Absolute Run-Time (s)&0.9218&0.2769&2.2537\\[1ex]
+             \hline\hline
+             Relative Run-Time (to GM-LoG~\cite{xue2014blind})&5&1.5&12\\[1ex]
+             \hline\hline
+             Accuracy&0.9107&0.9012&0.8816
+              \end{tabular}\hspace*{-1cm}
+\end{sidewaystable}
+\section{Future Works and Conclusion}
+Modeling human perception of image quality is a fundamental problem in artificial intelligence (AI) and computer vision, which is applicable in many image processing tasks. With the ease of internet access and acquisition or sharing digitized images, much information are delivered via pictures. This demands the monitoring of visual quality of digital images which entails their objective assessment. 
+
+The complexity of human visual sensation and perception, limits the direct mathematical modeling of quality which in turn, makes machine learning techniques a suitable choice. Similar to other AI problems, human knowledge in a specific domain, can make learning easier for the machine. Therefore, image quality researches acknowledge efficient and expressive features, regardless of the advances in automatic methods.
+
+In some applications, images usually contain multiple distortions and their assessment is different from the case of singly-distorted images and new methods have been proposed for handling multiple distortions. By studying these methods, it was revealed that some trends were common in successful algorithms. Considering image texture, representing the relation between bi-order structures, analyzing the image in multiple scales, and mapping the features with sophisticated methods seemed to be effective in assessing multiple distortions. In this research, we proposed a NR and a FR method that could successfully fill the gaps in the performance of previous algorithms. 
+
+It is apparent that promoting the models that map the features to the final score can be very effective for multiple distortions. This may stem in modeling the joint effect of simultaneous artifacts. Therefore, inspecting different regression techniques, such as multi-layer perceptrons or multiple SVR models can be considered for future studies.  

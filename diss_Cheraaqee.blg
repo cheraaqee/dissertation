@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: diss_Cheraaqee.aux
+The style file: plain.bst
+Database file #1: uw-ethesis.bib
+Warning--to sort, need author or key in del
+Warning--empty booktitle in Chetouani2016
+Warning--empty publisher in Gonzalez2008
+Warning--there's a number but no volume in linde1981similarity
+You've used 113 entries,
+            2118 wiz_defined-function locations,
+            1130 strings with 24912 characters,
+and the built_in function-call counts, 39793 in all, are:
+= -- 3859
+> -- 2179
+< -- 23
++ -- 856
+- -- 742
+* -- 2837
+:= -- 6660
+add.period$ -- 343
+call.type$ -- 113
+change.case$ -- 709
+chr.to.int$ -- 0
+cite$ -- 117
+duplicate$ -- 1431
+empty$ -- 2897
+format.name$ -- 742
+if$ -- 8218
+int.to.chr$ -- 0
+int.to.str$ -- 113
+missing$ -- 106
+newline$ -- 559
+num.names$ -- 224
+pop$ -- 739
+preamble$ -- 1
+purify$ -- 597
+quote$ -- 0
+skip$ -- 1074
+stack$ -- 0
+substring$ -- 2192
+swap$ -- 320
+text.length$ -- 23
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 450
+warning$ -- 4
+while$ -- 360
+width$ -- 116
+write$ -- 1189
+(There were 4 warnings)

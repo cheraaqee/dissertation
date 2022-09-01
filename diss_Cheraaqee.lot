@@ -1,0 +1,12 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Severity of Blur and JPEG for 15 Distorted Versions of a Reference Image in `blurjpeg' Folder. Six of these 15 versions are singly-distorted (the severity of one distortion is zero) and 9 are multiply-distorted\relax }}{49}{table.caption.31}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Severity of Blur and Noise for 15 Distorted Versions of a Reference Image in `blurnoise' Folder.\relax }}{50}{table.caption.32}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces The Accuracy of the Proposed Method and Other FR Algorithms\relax }}{51}{table.caption.33}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces The Algorithms' Run-Time \relax }}{52}{table.caption.34}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces The Performance of NR Methods on Individual Datasets (MLIVE, MDID2013, and MDID2016).\relax }}{53}{table.caption.35}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces The Results for Changing the Ratio of Training Data.\relax }}{54}{table.caption.36}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces SROCC Indexes for Cross-Dataset Evaluation.\relax }}{55}{table.caption.37}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Methods' Time Complexity\relax }}{56}{table.caption.38}%

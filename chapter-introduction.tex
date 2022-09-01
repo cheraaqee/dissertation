@@ -1,0 +1,44 @@
+%======================================================================
+\chapter{Introduction}
+%======================================================================
+
+Digital images are an important means for sharing information in the age of communication. Watching television or viewing images on smartphones are part of our daily lives and video accounts for a large portion data traffic~\cite{del}. Digital images are captured, synthesized, and shared for educational, recreational, or business purposes.
+
+It is unpleasant for users to view a low-quality image and it is necessary in many situations to be provided with a measurement of image quality. For example, content providers are willing to be aware of the quality of images viewed by their users and detect the defected pictures. The process of image acquisition can also repeat, until a satisfactory quality is achieved. Compression algorithms try to reduce the size of images, while maintaining its quality. Reduction of size is obtained with loss of information which is followed by image distortion. Therefore, with measuring the quality of the compressed image, the trade off between size and quality can be optimized.
+
+The straight-forward way to evaluate the quality of an image, is to survey human opinions~\cite{Ghadiyaram2016}. A set of subjects view the image and each of them gives a score to the quality of the image. The average of these scores, called \emph{mean opinion score}-MOS, is a reliable measurement of the visual quality of the test picture.
+
+The process described above, is called subjective assessment and it is infeasible for online, large-scale or real-time applications. Hence, automatic methods are desirable that can predict human's judgement on the quality of an image. However, due to its complexity, human visual system (HVS) is difficult to model and the prediction of an algorithm may not be well correlated with the opinion of human.
+
+Devising computational models that can correctly predict human opinion on the quality of a digital picture, is called objective image quality assessment (IQA). The accuracy and speed of this prediction are the performance criteria of a proposed algorithm. The accuracy of a method is measured by the correlation between its scores and the scores obtained from subjective assessments.
+
+In this thesis, the problem of objective IQA is studied. I the following sections a classification of the problem and an introduction on multiple distortions is presented.
+
+\section{Classes of Objective IQA Problems}
+According to the availability of a pristine image, there can be three cases when evaluating the quality of a distorted picture. In some scenarios, like image compression, a distorted version of the original image is produced by the compression algorithm. So when assessing the quality of the compressed image, the original can be used as a reference. This case is called \emph{full reference}-FR IQA. If instead of pixel-by-pixel values, there are some information available from the reference image, like an extracted feature vector, the assessment is called \emph{reduced reference}-RR IQA. This case can happen in image communications when it is expensive and unreliable to transmit bulky images.
+
+An example for the case that there are no reference images, is a hand-held camera that captures multiple shots at a time and automatically selects the one with highest visual quality. There are no references available from the recorded scene and the evaluation must be done in a \emph{no reference}-NR manner. It is obvious that correct prediction in NR IQA is more difficult~\cite{Kang2014}.
+
+Although IQA methods can be classified in different ways, but we will have the least overlap when classifying according to the availability of a reference picture. However, there are methods that can be adapted to a desirable amount of information from a reference signal~\cite{Bosse2018, torkamani2018image}. In this research, a FR and a NR objective IQA methods are proposed and evaluated.
+%----------------------------------------------
+\section{Distortions in an Image}
+%----------------------------------------------
+Common distortions that cause deviation in the perceived quality of images, are limited in practice~\cite{Chandler2013}. Blocking effect, out-of-focus blur, and white Gaussian noise are examples of these artifacts. If we are already aware of the distortion type that contaminated the image and we want to measure its severity, we are performing a \emph{distortion-specific} assessment. \emph{General-purpose} or \emph{non-distortion-specific} assessment, addresses the case that the image can be distorted with an arbitrary artifact and the algorithm is not aware of its type.
+
+There has been numerous studies for distortion-specific and general-purpose IQA~\cite{lin2010perceptual, Chikkerur2011, xu2017no, Manap2015, borse2014competitive} and many datasets of distorted images are available along with their corresponding subjective scores~\cite{Sheikh,Chandler2010,Ponomarenko2015,Ponomarenko2009,Horita}. Each distorted image in these datasets is contaminated with one type of distortions of arbitrary severity, i.e., the image is \emph{singly-distorted}.
+
+In real-world problems, an image can have multiple distortions. An example is an image that is blurred because of environmental conditions at the time of acquisition, and then quantized by compression, and noised after transmission. In 2012, Jayaraman et al.~\cite{Jayaraman2012}, provided a dataset of subject-rated \emph{multiply-distorted} images and demonstrated that the accuracy of methods devised for single distortions, drops significantly when applied to multiply-distorted images. Therefore, different approaches are required for multiple distortions~\cite{Li2016}.
+
+With the increase in academic and commercial demands, two other datasets are constructed for training and testing the algorithms on multiply-distorted images~\cite{Sun2017, Gu2014} and many current IQA studies are devoted to multiple distortions~\cite{Li2016,Gu2014,Dai2018,Chetouani2016,Chetouani2015,Li2018a,Mahmoudpour2018,Mahmoudpour2017,Gu2013,miao2019quality,wang2019blind, zhang2019full, lu2015no}. IQA of multiply-distorted images is the problem that is tackled in this thesis.
+%---------------------------------------------------------------------
+\section{Objectives and Motivations}
+%---------------------------------------------------------------------
+Many image processing systems lack a reliable and fast metric of image quality. Parameters related to contrast and luminance of hand-held digital cameras can be automatically set for any arbitrary scene according to a measure of quality~\cite{Alakarhu2007}. Compression algorithms can also optimize the quantization using the metric~\cite{Zhai2008,Zhang2011}. Another example is video streaming services in which, streaming resources can be allocated in a smarter manner according to the quality of the videos~\cite{Anegekuh2015}. Image recommendation systems can also sort the images based on a quality index~\cite{Gaur2014}.
+
+Subjective assessments must be proceeded according to certain standards and comply certain conditions~\cite{VQEG2000}. For example, the number of subjects must satisfy the requirements for statistical reliability. Also, the display condition and the rating format affect the opinion of the participants. Regardless of the tediousness of subjective experiments, it is not possible to survey human judgements in on-line and real-time applications and automation is the only option in these cases. So, a fast and reliable image quality metric is of great practical interest.
+
+Occurrence of multiple distortions in real-world problems demands methods that can handle the mutual and joint effect of the artifacts. On the other hand, traditional methods are greatly challenged in assessing the quality of multiply-distorted images.
+
+These theoretical and practical necessities motivates us to study the objective assessment of multiple distortions. Since the eventual observer in the majority of image processing applications is the human~\cite{Ghadiyaram2016}, the intelligence of an objective IQA system is measured by its ability to mimic human rating and we aim to propose a metric with an acceptable performance on subject-rated multiply-distorted IQA datasets.
+
+In this chapter, we introduced and classified the problem of objective IQA, mentioned its applications, and distinguished the cases of single and multiple distortions. In the rest of the thesis we review the literature in Chapter 2 and propose a FR and a NR method in Chapter 3. In Chapter 4 the method is tested and the thesis is concluded with suggestions for future studies.

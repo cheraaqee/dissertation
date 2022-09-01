@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces $MSE$ and $SSIM$ for different distorted versions of Einstein's photo.\relax }}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Different versions of an image with different distortions along with the gradient magnitude map and the map of gradient magnitude similarity with the original image.\relax }}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Training feature-based methods\relax }}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Testing feature-based methods (The `Regressor' is the output of the train process.)\relax }}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Two images from LIVE dataset and their MSCN map and the histogram of values in the MSCN domain\relax }}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces MSCN distributions for distorted versions of two images\relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The QWT subbands of `bikes' in one scale\relax }}{18}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The procedure of building a dictionary\relax }}{23}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Learning the distortion parameters\relax }}{25}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The architecture of Kang's network\relax }}{26}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces The architecture of EONSS\relax }}{27}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces An image from MDID13 dataset along with its LBP map variants\relax }}{27}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces The nine possible binary patterns with 2 or less transitions\relax }}{28}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Images of different quality (left column) with their gradient magnitude map (middle column) and the LBP computed from gradient magnitude (right column)\relax }}{29}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Images of different quality (left column) with their simple histogram (middle column) and their weighted histogram (right column)\relax }}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces An image with its $LBP_{8, 1}^{riu2}$ (c) and $GCSLBP_{8, 1}$ (d) maps; extracted from the MSCN values (b)\relax }}{32}{figure.caption.22}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Magnitude and direction of gradient vectors for an image in (b) and (c), respectively.\relax }}{36}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sensitivity of gradient direction to various artifacts\relax }}{37}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Two alternatives for representing gradient directions\relax }}{37}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Histogram of direction values after quantization\relax }}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Weighted histogram of direction values\relax }}{39}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gradient magnitude and direction for (a) in (b) and (d), respectively. Derivative of gradient direction in (c)\relax }}{40}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Difference of $LBP^{riu2}_{P, R}$ and $MLBP^{riu2}_{P, R}$. (a) in $LBP^{riu2}_{P, R}$ the difference of $n_c$ and $P$ $n_i$s is computed, where $n_i$s are located in a neighborhood of radius $R$ and arcs with angles\nobreakspace {}$\theta =\frac {360}{P}$ (b) a neighborhood of size $3\times 3$ is shown around each $n_i$. The `median' of each neighborhood is considered for subtracting from $n_c$\relax }}{40}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Proposed features for different qualities of two scenes\relax }}{41}{figure.caption.30}%
+\addvspace {10\p@ }

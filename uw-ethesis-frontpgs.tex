@@ -1,0 +1,173 @@
+% T I T L E   P A G E
+% -------------------
+% Last updated June 14, 2017, by Stephen Carr, IST-Client Services
+% The title page is counted as page `i' but we need to suppress the
+% page number. Also, we don't want any headers or footers.
+\pagestyle{empty}
+\pagenumbering{roman}
+
+% The contents of the title page are specified in the "titlepage"
+% environment.
+\begin{titlepage}
+        \begin{center}
+        \vspace*{1.0cm}
+
+        \Huge
+        {\bf A No-Reference Method for Assessing the Quality of Multiply-Distorted Images}
+
+        \vspace*{1.0cm}
+
+        \normalsize
+        by \\
+
+        \vspace*{1.0cm}
+
+        \Large
+        Pooryaa Cheraaqee \\
+
+        \vspace*{3.0cm}
+
+        \normalsize
+        A thesis \\
+        presented to Kharazmi University \\ 
+        in fulfillment of the \\
+        thesis requirement for the degree of \\
+        Masters of Science \\
+        in \\
+        Computer Engineering-Artificial Intelligence and Robotics \\
+
+        \vspace*{2.0cm}
+
+        Tehran, Tehran, Iran, 2019 \\
+
+        \vspace*{1.0cm}
+
+        %\copyright\ Pat Neugraad 2017 \\
+        \end{center}
+\end{titlepage}
+
+% The rest of the front pages should contain no headers and be numbered using Roman numerals starting with `ii'
+\pagestyle{plain}
+\setcounter{page}{2}
+
+\cleardoublepage % Ends the current page and causes all figures and tables that have so far appeared in the input to be printed.
+% In a two-sided printing style, it also makes the next page a right-hand (odd-numbered) page, producing a blank page if necessary.
+
+ 
+% E X A M I N I N G   C O M M I T T E E (Required for Ph.D. theses only)
+% Remove or comment out the lines below to remove this page
+\begin{center}\textbf{Examining Committee Membership}\end{center}
+  \noindent
+The following served on the Examining Committee for this thesis.
+  \bigskip
+  
+  \noindent
+\begin{tabbing}
+Internal-External Member: \=  \kill % using longest text to define tab length
+External Examiner: \>  Farah Torkamani Azar \\ 
+\> Associate Professor, \\ \>Dept. of Telecommunication, \\ \>Shahid Beheshti University \\
+\end{tabbing} 
+  \bigskip
+ \noindent
+  \begin{tabbing}
+Internal-External Member: \=  \kill % using longest text to define tab length
+Internal Examiner: \> Manoochehr Kelarestaghi \\
+\> Assistant Professor, \\ \>Dept. of Electrical and Computer Engineering, \\ \>Kharazmi University \\
+\end{tabbing}
+  \bigskip
+  
+  \noindent
+\begin{tabbing}
+Internal-External Member: \=  \kill % using longest text to define tab length
+Supervisors: \> Azadeh Mansouri \\
+\> Assistant Professor, \\ \>Dept. of Electrical and Computer Engineering,\\ \> Kharazmi University \\ \\
+\> Ahmad Mahmoudi-Aznaveh \\
+\> Assistant Professor, \\ \>Cyberspace Research Institute,\\ \> Shahid Beheshti University \\
+\end{tabbing}
+%  \bigskip
+  
+  
+  
+%  \noindent
+%\begin{tabbing}
+%Internal-External Member: \=  \kill % using longest text to define tab length
+%Internal-External Member: \> Deepa Thotta \\
+%\> Professor, Dept. of Philosophy, University of Waterloo \\
+%\end{tabbing}
+%  \bigskip
+%  
+%  \noindent
+%\begin{tabbing}
+%Internal-External Member: \=  \kill % using longest text to define tab length
+%Other Member(s): \> Leeping Fang \\
+%\> Professor, Dept. of Fine Art, University of Waterloo \\
+%\end{tabbing}
+%
+\cleardoublepage
+
+% D E C L A R A T I O N   P A G E
+% -------------------------------
+  % The following is a sample Delaration Page as provided by the GSO
+  % December 13th, 2006.  It is designed for an electronic thesis.
+  \noindent
+This document is prepared using the thesis template available on https://www.overleaf.com/.
+
+\cleardoublepage
+
+% A B S T R A C T
+% ---------------
+
+\begin{center}\textbf{Abstract}\end{center}
+
+Assessing the visual quality of digital images is of great importance, since humans are the typical users of multimedia applications, and their satisfaction is dependent on the perceived quality. Mathematical models of human-quality perception are desirable, since they can automate the monitoring and optimization of such services. However, the non-linear and complex human visual system is difficult to simulate, and machine learning methods are leveraged to predict human judgements on image quality. The existence of multiple distortions increases the complexity of assessment in comparison to the case of single distortions. To supply academic and practical demands, several datasets are provided for training and evaluation of multiple-distortion quality metrics. In this dissertation, a full-reference and a no-reference method are proposed for assessing multiply-distorted images that incorporate gradient orientations for representing micro structures. Experiments show that the generality of the proposed features is superior to the existing descriptors. The method is also shown to have an acceptable time complexity while being competitively accurate.
+
+\cleardoublepage
+
+% A C K N O W L E D G E M E N T S
+% -------------------------------
+
+\begin{center}\textbf{Acknowledgements}\end{center}
+
+I would like to thank Dr. Mansouri, Dr. Mahmoudi-Aznaveh, my father, my mother, and my brother, for making this research possible.
+
+I also thank Mohammad Minouei, Hossein Motamednia, Mojtaba Barekati, and Mohammad Ali Arghavan for sharing their creative ideas with me.
+\cleardoublepage
+
+% D E D I C A T I O N
+% -------------------
+
+%\begin{center}\textbf{Dedication}\end{center}
+
+%This is dedicated to the one I love.
+%\cleardoublepage
+
+% T A B L E   O F   C O N T E N T S
+% ---------------------------------
+\renewcommand\contentsname{Table of Contents}
+\tableofcontents
+\cleardoublepage
+\phantomsection    % allows hyperref to link to the correct page
+
+% L I S T   O F   T A B L E S
+% ---------------------------
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+\cleardoublepage
+\phantomsection		% allows hyperref to link to the correct page
+
+% L I S T   O F   F I G U R E S
+% -----------------------------
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\cleardoublepage
+\phantomsection		% allows hyperref to link to the correct page
+
+% GLOSSARIES (Lists of definitions, abbreviations, symbols, etc. provided by the glossaries-extra package)
+% -----------------------------
+%\printglossaries
+%\cleardoublepage
+%\phantomsection		% allows hyperref to link to the correct page
+
+% Change page numbering back to Arabic numerals
+\pagenumbering{arabic}
+

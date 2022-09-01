@@ -1,0 +1,1869 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  1 SEP 2022 19:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**diss_Cheraaqee.tex
+(./diss_Cheraaqee.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-06-02>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks17
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-05-17 v7.00q Hypertext links for LaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+))
+\c@section@level=\count272
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count273
+\Hy@pagecounter=\count274
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-05-17 v7.00q Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count275
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-05-17 v7.00q Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `final' set `true' on input line 4020.
+Package hyperref Info: Hyper figures OFF on input line 4139.
+Package hyperref Info: Link nesting OFF on input line 4144.
+Package hyperref Info: Hyper index ON on input line 4147.
+Package hyperref Info: Plain pages OFF on input line 4154.
+Package hyperref Info: Backreferencing OFF on input line 4159.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4385.
+LaTeX Info: Redefining \href on input line 4634.
+\c@Hy@tempcnt=\count276
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4723.
+\XeTeXLinkMargin=\dimen151
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count277
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6001.
+Package hyperref Info: Link nesting OFF on input line 6006.
+Package hyperref Info: Hyper index ON on input line 6009.
+Package hyperref Info: backreferencing OFF on input line 6016.
+Package hyperref Info: Link coloring OFF on input line 6021.
+Package hyperref Info: Link coloring with OCG OFF on input line 6026.
+Package hyperref Info: PDF/A mode OFF on input line 6031.
+LaTeX Info: Redefining \ref on input line 6078.
+LaTeX Info: Redefining \pageref on input line 6078.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count278
+\c@Item=\count279
+\c@Hfootnote=\count280
+)
+Package hyperref Info: Driver: hpdftex.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-05-17 v7.00q Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 128.
+Package hyperref Info: Option `unicode' set `false' on input line 128.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 128.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 128.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 128.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 128.
+Package hyperref Info: Option `colorlinks' set `true' on input line 128.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries-extra/glossaries-extra
+.sty
+Package: glossaries-extra 2021/11/22 v1.48 (NLCT)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+)
+\XKV@depth=\count283
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count284
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2021/11/01 v4.49 (NLCT)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2021/10/15 v2.07 (NLCT)
+\@glsmfirst=\toks24
+\@glsmrest=\toks25
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count285
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count286
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count287
+\FP@xia=\count288
+\FP@xib=\count289
+\FP@xfa=\count290
+\FP@xfb=\count291
+\FP@rega=\count292
+\FP@regb=\count293
+\FP@regs=\count294
+\FP@times=\count295
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count296
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks26
+\@dtl@tmpcount=\count297
+\dtl@tmplength=\skip53
+\dtl@sortresult=\count298
+\@dtl@numgrpsepcount=\count299
+\@dtl@datatype=\count300
+\dtl@codeA=\count301
+\dtl@codeB=\count302
+\@dtl@foreach@level=\count303
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+ible-307.sty
+Package: glossaries-compatible-307 2021/11/01 v4.49 (NLCT)
+)
+\gls@level=\count304
+\@gls@tmpb=\toks27
+\gls@tmplen=\skip54
+\glskeylisttok=\toks28
+\glslabeltok=\toks29
+\glsshorttok=\toks30
+\glslongtok=\toks31
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2021/11/01 v4.49 (NLCT)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2021/11/01 v4.49 (NLCT)
+\glslistdottedwidth=\skip55
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2021/11/01 v4.49 (NLCT)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count305
+\LTcapwidth=\dimen154
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@gbox=\box56
+\LT@cols=\count306
+\LT@rows=\count307
+\c@LT@tables=\count308
+\c@LT@chunks=\count309
+\LT@p@ftn=\toks32
+)
+\glsdescwidth=\skip60
+\glspagelistwidth=\skip61
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2021/11/01 v4.49 (NLCT)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count310
+\ST@wd=\dimen155
+\ST@rightskip=\skip62
+\ST@leftskip=\skip63
+\ST@parfillskip=\skip64
+\ST@pageleft=\dimen156
+\ST@headht=\dimen157
+\ST@tailht=\dimen158
+\ST@pagesofar=\dimen159
+\ST@pboxht=\dimen160
+\ST@lineht=\dimen161
+\ST@prevht=\dimen162
+\ST@toadd=\dimen163
+\ST@dimen=\dimen164
+\ST@pbox=\box57
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2021/11/01 v4.49 (NLCT)
+\glstreeindent=\skip65
+))
+\@glsxtr@leveloffset=\count311
+\glsxtrresourcecount=\count312
+\@glsxtrnewgls@inner=\count313
+\glsshortpltok=\toks33
+\glslongpltok=\toks34
+\mglselementindex=\count314
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen165
+\captionmargin=\dimen166
+\caption@leftmargin=\dimen167
+\caption@rightmargin=\dimen168
+\caption@width=\dimen169
+\caption@indent=\dimen170
+\caption@parindent=\dimen171
+\caption@hangindent=\dimen172
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count315
+\c@continuedfloat=\count316
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count317
+\c@subtable=\count318
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box58
+\extrarowheight=\dimen174
+\NC@list=\toks35
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box59
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count319
+\rotFPtop=\skip68
+\rotFPbot=\skip69
+\rot@float@box=\box60
+\rot@mess@toks=\toks36
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen175
+\lightrulewidth=\dimen176
+\cmidrulewidth=\dimen177
+\belowrulesep=\dimen178
+\belowbottomsep=\dimen179
+\aboverulesep=\dimen180
+\abovetopsep=\dimen181
+\cmidrulesep=\dimen182
+\cmidrulekern=\dimen183
+\defaultaddspace=\dimen184
+\@cmidla=\count320
+\@cmidlb=\count321
+\@aboverulesep=\dimen185
+\@belowrulesep=\dimen186
+\@thisruleclass=\count322
+\@lastruleclass=\count323
+\@thisrulewidth=\dimen187
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count324
+\c@Blindtext=\count325
+\c@blind@countparstart=\count326
+\blind@countxx=\count327
+\blindtext@numBlindtext=\count328
+\blind@countyy=\count329
+\c@blindlist=\count330
+\c@blindlistlevel=\count331
+\c@blindlist@level=\count332
+\blind@listitem=\count333
+\c@blind@listcount=\count334
+\c@blind@levelcount=\count335
+\blind@mathformula=\count336
+\blind@Mathformula=\count337
+\c@blind@randomcount=\count338
+\c@blind@randommax=\count339
+\c@blind@pangramcount=\count340
+\c@blind@pangrammax=\count341
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip70
+\multirow@cntb=\count342
+\multirow@dima=\skip71
+\bigstrutjot=\dimen188
+)
+\glswrite=\write3
+\glo@main@file=\write4
+\openout4 = `diss_Cheraaqee.glo'.
+
+Package glossaries Info: Writing glossary file diss_Cheraaqee.glo on input line
+ 229.
+\glo@abbreviations@file=\write5
+\openout5 = `diss_Cheraaqee.glo-abr'.
+
+Package glossaries Info: Writing glossary file diss_Cheraaqee.glo-abr on input 
+line 229.
+\glo@nomenclature@file=\write6
+\openout6 = `diss_Cheraaqee.nomenclature-glo'.
+
+Package glossaries Info: Writing glossary file diss_Cheraaqee.nomenclature-glo 
+on input line 229.
+\glo@symbols@file=\write7
+\openout7 = `diss_Cheraaqee.symbols-glo'.
+
+Package glossaries Info: Writing glossary file diss_Cheraaqee.symbols-glo on in
+put line 229.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count343
+\l__pdf_internal_box=\box61
+)
+
+LaTeX Warning: Unused global option(s):
+    [A4paper].
+
+(./diss_Cheraaqee.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `fig:sample_dir' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+)
+\openout1 = `diss_Cheraaqee.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count344
+\scratchdimen=\dimen189
+\scratchbox=\box62
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen190
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks38
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+)
+Package hyperref Info: Link coloring ON on input line 237.
+
+(./diss_Cheraaqee.out) (./diss_Cheraaqee.out)
+\@outlinefile=\write8
+\openout8 = `diss_Cheraaqee.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (./uw-ethesis-frontpgs.tex
+[1
+
+\openout3 = `diss_Cheraaqee.ist'.
+
+
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+
+]
+Overfull \hbox (8.03362pt too wide) in paragraph at lines 112--114
+\OT1/cmr/m/n/12 This doc-u-ment is pre-pared us-ing the the-sis tem-plate avail
+-able on https://www.overleaf.com/. 
+ []
+
+[3
+
+
+] [4
+
+
+] [5
+
+
+] (./diss_Cheraaqee.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [6
+
+
+
+
+] [7])
+\tf@toc=\write9
+\openout9 = `diss_Cheraaqee.toc'.
+
+
+[8] (./diss_Cheraaqee.lot
+Overfull \hbox (8.80049pt too wide) in paragraph at lines 9--9
+ [][] [][][]\OT1/cmr/m/n/12 The Per-for-mance of NR Meth-ods on In-di-vid-ual D
+atasets (MLIVE, MDID2013, 
+ []
+
+)
+\tf@lot=\write10
+\openout10 = `diss_Cheraaqee.lot'.
+
+ [9
+
+
+
+
+] (./diss_Cheraaqee.lof [10
+
+
+
+
+]
+Overfull \hbox (0.79025pt too wide) in paragraph at lines 25--25
+ [][] [][][]\OT1/cmr/m/n/12 Gradient mag-ni-tude and di-rec-tion for (a) in (b)
+ and (d), re-spec-tively. Deriva- 
+ []
+
+)
+\tf@lof=\write11
+\openout11 = `diss_Cheraaqee.lof'.
+
+ [11]) (./chapter-introduction.tex
+Chapter 1.
+[1
+
+
+
+
+] [2] [3]) (./chapter-previous.tex [4]
+Chapter 2.
+[5
+
+
+]
+<./figs/image003.jpg, id=511, 255.95625pt x 255.95625pt>
+File: ./figs/image003.jpg Graphic file (type jpg)
+<use ./figs/image003.jpg>
+Package pdftex.def Info: ./figs/image003.jpg  used on input line 24.
+(pdftex.def)             Requested size: 138.21777pt x 138.21822pt.
+<./figs/image003_bn.jpg, id=512, 341.275pt x 341.275pt>
+File: ./figs/image003_bn.jpg Graphic file (type jpg)
+<use ./figs/image003_bn.jpg>
+Package pdftex.def Info: ./figs/image003_bn.jpg  used on input line 31.
+(pdftex.def)             Requested size: 138.21777pt x 138.22081pt.
+<./figs/image0_bn.jpg, id=513, 341.275pt x 341.275pt>
+File: ./figs/image0_bn.jpg Graphic file (type jpg)
+<use ./figs/image0_bn.jpg>
+Package pdftex.def Info: ./figs/image0_bn.jpg  used on input line 38.
+(pdftex.def)             Requested size: 138.21777pt x 138.22081pt.
+<./figs/image009_bn.jpg, id=514, 341.275pt x 341.275pt>
+File: ./figs/image009_bn.jpg Graphic file (type jpg)
+<use ./figs/image009_bn.jpg>
+Package pdftex.def Info: ./figs/image009_bn.jpg  used on input line 45.
+(pdftex.def)             Requested size: 138.21777pt x 138.22081pt.
+<./figs/image011_bn.jpg, id=515, 341.275pt x 341.275pt>
+File: ./figs/image011_bn.jpg Graphic file (type jpg)
+<use ./figs/image011_bn.jpg>
+Package pdftex.def Info: ./figs/image011_bn.jpg  used on input line 52.
+(pdftex.def)             Requested size: 138.21777pt x 138.22081pt.
+<./figs/image013_bn.jpg, id=516, 341.275pt x 341.275pt>
+File: ./figs/image013_bn.jpg Graphic file (type jpg)
+<use ./figs/image013_bn.jpg>
+Package pdftex.def Info: ./figs/image013_bn.jpg  used on input line 59.
+(pdftex.def)             Requested size: 138.21777pt x 138.22081pt.
+ [6] [7 <./figs/image003.jpg> <./figs/image003_bn.jpg> <./figs/image0_bn.jpg> <
+./figs/image009_bn.jpg> <./figs/image011_bn.jpg> <./figs/image013_bn.jpg>]
+[8]
+<./figs/reference_gry.jpg, id=556, 770.88pt x 513.92pt>
+File: ./figs/reference_gry.jpg Graphic file (type jpg)
+<use ./figs/reference_gry.jpg>
+Package pdftex.def Info: ./figs/reference_gry.jpg  used on input line 123.
+(pdftex.def)             Requested size: 138.21777pt x 92.14088pt.
+<./figs/reference_mag.jpg, id=557, 385.44pt x 256.96pt>
+File: ./figs/reference_mag.jpg Graphic file (type jpg)
+<use ./figs/reference_mag.jpg>
+Package pdftex.def Info: ./figs/reference_mag.jpg  used on input line 130.
+(pdftex.def)             Requested size: 138.21777pt x 92.1448pt.
+<./figs/reference_sim.jpg, id=558, 385.44pt x 256.96pt>
+File: ./figs/reference_sim.jpg Graphic file (type jpg)
+<use ./figs/reference_sim.jpg>
+Package pdftex.def Info: ./figs/reference_sim.jpg  used on input line 137.
+(pdftex.def)             Requested size: 124.39514pt x 82.92679pt.
+<./figs/blur_gry.jpg, id=559, 770.88pt x 513.92pt>
+File: ./figs/blur_gry.jpg Graphic file (type jpg)
+<use ./figs/blur_gry.jpg>
+Package pdftex.def Info: ./figs/blur_gry.jpg  used on input line 144.
+(pdftex.def)             Requested size: 138.21777pt x 92.14088pt.
+<./figs/blur_mag.jpg, id=560, 385.44pt x 256.96pt>
+File: ./figs/blur_mag.jpg Graphic file (type jpg)
+<use ./figs/blur_mag.jpg>
+Package pdftex.def Info: ./figs/blur_mag.jpg  used on input line 151.
+(pdftex.def)             Requested size: 138.21777pt x 92.1448pt.
+<./figs/blur_sim.jpg, id=561, 385.44pt x 256.96pt>
+File: ./figs/blur_sim.jpg Graphic file (type jpg)
+<use ./figs/blur_sim.jpg>
+Package pdftex.def Info: ./figs/blur_sim.jpg  used on input line 158.
+(pdftex.def)             Requested size: 138.21777pt x 92.1448pt.
+<./figs/jpeg_gry.jpg, id=562, 770.88pt x 513.92pt>
+File: ./figs/jpeg_gry.jpg Graphic file (type jpg)
+<use ./figs/jpeg_gry.jpg>
+Package pdftex.def Info: ./figs/jpeg_gry.jpg  used on input line 165.
+(pdftex.def)             Requested size: 138.21777pt x 92.14088pt.
+<./figs/jpeg_mag.jpg, id=563, 385.44pt x 256.96pt>
+File: ./figs/jpeg_mag.jpg Graphic file (type jpg)
+<use ./figs/jpeg_mag.jpg>
+Package pdftex.def Info: ./figs/jpeg_mag.jpg  used on input line 172.
+(pdftex.def)             Requested size: 138.21777pt x 92.1448pt.
+<./figs/jpeg_sim.jpg, id=564, 385.44pt x 256.96pt>
+File: ./figs/jpeg_sim.jpg Graphic file (type jpg)
+<use ./figs/jpeg_sim.jpg>
+Package pdftex.def Info: ./figs/jpeg_sim.jpg  used on input line 179.
+(pdftex.def)             Requested size: 138.21777pt x 92.1448pt.
+<./figs/noise_gry.jpg, id=565, 770.88pt x 513.92pt>
+File: ./figs/noise_gry.jpg Graphic file (type jpg)
+<use ./figs/noise_gry.jpg>
+Package pdftex.def Info: ./figs/noise_gry.jpg  used on input line 186.
+(pdftex.def)             Requested size: 138.21777pt x 92.14088pt.
+<./figs/noise_mag.jpg, id=566, 385.44pt x 256.96pt>
+File: ./figs/noise_mag.jpg Graphic file (type jpg)
+<use ./figs/noise_mag.jpg>
+Package pdftex.def Info: ./figs/noise_mag.jpg  used on input line 193.
+(pdftex.def)             Requested size: 138.21777pt x 92.1448pt.
+<./figs/noise_sim.jpg, id=567, 385.44pt x 256.96pt>
+File: ./figs/noise_sim.jpg Graphic file (type jpg)
+<use ./figs/noise_sim.jpg>
+Package pdftex.def Info: ./figs/noise_sim.jpg  used on input line 200.
+(pdftex.def)             Requested size: 138.21777pt x 92.1448pt.
+ [9] [10 <./figs/reference_gry.jpg> <./figs/reference_mag.jpg> <./figs/referenc
+e_sim.jpg> <./figs/blur_gry.jpg> <./figs/blur_mag.jpg> <./figs/blur_sim.jpg> <.
+/figs/jpeg_gry.jpg> <./figs/jpeg_mag.jpg> <./figs/jpeg_sim.jpg> <./figs/noise_g
+ry.jpg> <./figs/noise_mag.jpg> <./figs/noise_sim.jpg>]
+<./figs/fg_svr_train.pdf, id=600, 597.55246pt x 845.07718pt>
+File: ./figs/fg_svr_train.pdf Graphic file (type pdf)
+<use ./figs/fg_svr_train.pdf>
+Package pdftex.def Info: ./figs/fg_svr_train.pdf  used on input line 229.
+(pdftex.def)             Requested size: 460.72124pt x 192.2439pt.
+<./figs/fg_svr_test.pdf, id=602, 597.55246pt x 845.07718pt>
+File: ./figs/fg_svr_test.pdf Graphic file (type pdf)
+<use ./figs/fg_svr_test.pdf>
+Package pdftex.def Info: ./figs/fg_svr_test.pdf  used on input line 236.
+(pdftex.def)             Requested size: 446.90016pt x 253.4883pt.
+<./figs/reference.jpg, id=612, 770.88pt x 513.92pt>
+File: ./figs/reference.jpg Graphic file (type jpg)
+<use ./figs/reference.jpg>
+Package pdftex.def Info: ./figs/reference.jpg  used on input line 247.
+(pdftex.def)             Requested size: 138.21777pt x 92.14088pt.
+<./figs/mscn_reference.jpg, id=613, 770.88pt x 513.92pt>
+File: ./figs/mscn_reference.jpg Graphic file (type jpg)
+<use ./figs/mscn_reference.jpg>
+Package pdftex.def Info: ./figs/mscn_reference.jpg  used on input line 254.
+(pdftex.def)             Requested size: 138.21777pt x 92.14088pt.
+<./figs/mscn_histreference.jpg, id=614, 878.28125pt x 658.46pt>
+File: ./figs/mscn_histreference.jpg Graphic file (type jpg)
+<use ./figs/mscn_histreference.jpg>
+Package pdftex.def Info: ./figs/mscn_histreference.jpg  used on input line 261.
+
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+<./figs/monarch.jpg, id=615, 770.88pt x 513.92pt>
+File: ./figs/monarch.jpg Graphic file (type jpg)
+<use ./figs/monarch.jpg>
+Package pdftex.def Info: ./figs/monarch.jpg  used on input line 268.
+(pdftex.def)             Requested size: 138.21777pt x 92.14088pt.
+<./figs/mscn_monarch.jpg, id=616, 770.88pt x 513.92pt>
+File: ./figs/mscn_monarch.jpg Graphic file (type jpg)
+<use ./figs/mscn_monarch.jpg>
+Package pdftex.def Info: ./figs/mscn_monarch.jpg  used on input line 275.
+(pdftex.def)             Requested size: 138.21777pt x 92.14088pt.
+<./figs/mscn_histmonarch.jpg, id=617, 878.28125pt x 658.46pt>
+File: ./figs/mscn_histmonarch.jpg Graphic file (type jpg)
+<use ./figs/mscn_histmonarch.jpg>
+Package pdftex.def Info: ./figs/mscn_histmonarch.jpg  used on input line 282.
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+File: ./figs/reference.jpg Graphic file (type jpg)
+<use ./figs/reference.jpg>
+Package pdftex.def Info: ./figs/reference.jpg  used on input line 294.
+(pdftex.def)             Requested size: 105.96391pt x 70.63872pt.
+File: ./figs/mscn_histreference.jpg Graphic file (type jpg)
+<use ./figs/mscn_histreference.jpg>
+Package pdftex.def Info: ./figs/mscn_histreference.jpg  used on input line 301.
+
+(pdftex.def)             Requested size: 105.96391pt x 79.43378pt.
+File: ./figs/mscn_histmonarch.jpg Graphic file (type jpg)
+<use ./figs/mscn_histmonarch.jpg>
+Package pdftex.def Info: ./figs/mscn_histmonarch.jpg  used on input line 308.
+(pdftex.def)             Requested size: 105.96391pt x 79.43378pt.
+File: ./figs/monarch.jpg Graphic file (type jpg)
+<use ./figs/monarch.jpg>
+Package pdftex.def Info: ./figs/monarch.jpg  used on input line 314.
+(pdftex.def)             Requested size: 105.96391pt x 70.63872pt.
+<./figs/blur.jpg, id=621, 770.88pt x 513.92pt>
+File: ./figs/blur.jpg Graphic file (type jpg)
+<use ./figs/blur.jpg>
+Package pdftex.def Info: ./figs/blur.jpg  used on input line 321.
+(pdftex.def)             Requested size: 105.96391pt x 70.63872pt.
+<./figs/mscn_histblur.jpg, id=622, 878.28125pt x 658.46pt>
+File: ./figs/mscn_histblur.jpg Graphic file (type jpg)
+<use ./figs/mscn_histblur.jpg>
+Package pdftex.def Info: ./figs/mscn_histblur.jpg  used on input line 328.
+(pdftex.def)             Requested size: 105.96391pt x 79.43378pt.
+<./figs/mscn_histmblur.jpg, id=623, 878.28125pt x 658.46pt>
+File: ./figs/mscn_histmblur.jpg Graphic file (type jpg)
+<use ./figs/mscn_histmblur.jpg>
+Package pdftex.def Info: ./figs/mscn_histmblur.jpg  used on input line 335.
+(pdftex.def)             Requested size: 105.96391pt x 79.43378pt.
+<./figs/mblur.jpg, id=624, 770.88pt x 513.92pt>
+File: ./figs/mblur.jpg Graphic file (type jpg)
+<use ./figs/mblur.jpg>
+Package pdftex.def Info: ./figs/mblur.jpg  used on input line 341.
+(pdftex.def)             Requested size: 105.96391pt x 70.63872pt.
+<./figs/jpeg.jpg, id=625, 770.88pt x 513.92pt>
+File: ./figs/jpeg.jpg Graphic file (type jpg)
+<use ./figs/jpeg.jpg>
+Package pdftex.def Info: ./figs/jpeg.jpg  used on input line 348.
+(pdftex.def)             Requested size: 105.96391pt x 70.63872pt.
+<./figs/mscn_histjpeg.jpg, id=626, 878.28125pt x 658.46pt>
+File: ./figs/mscn_histjpeg.jpg Graphic file (type jpg)
+<use ./figs/mscn_histjpeg.jpg>
+Package pdftex.def Info: ./figs/mscn_histjpeg.jpg  used on input line 355.
+(pdftex.def)             Requested size: 105.96391pt x 79.43378pt.
+<./figs/mscn_histmjpeg.jpg, id=627, 878.28125pt x 658.46pt>
+File: ./figs/mscn_histmjpeg.jpg Graphic file (type jpg)
+<use ./figs/mscn_histmjpeg.jpg>
+Package pdftex.def Info: ./figs/mscn_histmjpeg.jpg  used on input line 362.
+(pdftex.def)             Requested size: 105.96391pt x 79.43378pt.
+<./figs/mjpeg.jpg, id=628, 770.88pt x 513.92pt>
+File: ./figs/mjpeg.jpg Graphic file (type jpg)
+<use ./figs/mjpeg.jpg>
+Package pdftex.def Info: ./figs/mjpeg.jpg  used on input line 368.
+(pdftex.def)             Requested size: 105.96391pt x 70.63872pt.
+<./figs/noise.jpg, id=629, 770.88pt x 513.92pt>
+File: ./figs/noise.jpg Graphic file (type jpg)
+<use ./figs/noise.jpg>
+Package pdftex.def Info: ./figs/noise.jpg  used on input line 375.
+(pdftex.def)             Requested size: 105.96391pt x 70.63872pt.
+<./figs/mscn_histnoise.jpg, id=630, 878.28125pt x 658.46pt>
+File: ./figs/mscn_histnoise.jpg Graphic file (type jpg)
+<use ./figs/mscn_histnoise.jpg>
+Package pdftex.def Info: ./figs/mscn_histnoise.jpg  used on input line 382.
+(pdftex.def)             Requested size: 105.96391pt x 79.43378pt.
+<./figs/mscn_histmnoise.jpg, id=631, 878.28125pt x 658.46pt>
+File: ./figs/mscn_histmnoise.jpg Graphic file (type jpg)
+<use ./figs/mscn_histmnoise.jpg>
+Package pdftex.def Info: ./figs/mscn_histmnoise.jpg  used on input line 389.
+(pdftex.def)             Requested size: 105.96391pt x 79.43378pt.
+<./figs/mnoise.jpg, id=632, 770.88pt x 513.92pt>
+File: ./figs/mnoise.jpg Graphic file (type jpg)
+<use ./figs/mnoise.jpg>
+Package pdftex.def Info: ./figs/mnoise.jpg  used on input line 395.
+(pdftex.def)             Requested size: 105.96391pt x 70.63872pt.
+ [11] [12 <./figs/fg_svr_train.pdf> <./figs/fg_svr_test.pdf>] [13 <./figs/refer
+ence.jpg> <./figs/mscn_reference.jpg> <./figs/mscn_histreference.jpg> <./figs/m
+onarch.jpg> <./figs/mscn_monarch.jpg> <./figs/mscn_histmonarch.jpg>] [14 <./fig
+s/blur.jpg> <./figs/mscn_histblur.jpg> <./figs/mscn_histmblur.jpg> <./figs/mblu
+r.jpg> <./figs/jpeg.jpg> <./figs/mscn_histjpeg.jpg> <./figs/mscn_histmjpeg.jpg>
+ <./figs/mjpeg.jpg> <./figs/noise.jpg> <./figs/mscn_histnoise.jpg> <./figs/mscn
+_histmnoise.jpg> <./figs/mnoise.jpg>] [15]
+<./figs/m_1_1_q.jpg, id=773, 603.25375pt x 397.485pt>
+File: ./figs/m_1_1_q.jpg Graphic file (type jpg)
+<use ./figs/m_1_1_q.jpg>
+Package pdftex.def Info: ./figs/m_1_1_q.jpg  used on input line 446.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_1_1_1_q.jpg, id=774, 603.25375pt x 397.485pt>
+File: ./figs/o_1_1_1_q.jpg Graphic file (type jpg)
+<use ./figs/o_1_1_1_q.jpg>
+Package pdftex.def Info: ./figs/o_1_1_1_q.jpg  used on input line 453.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_1_1_2_q.jpg, id=775, 603.25375pt x 397.485pt>
+File: ./figs/o_1_1_2_q.jpg Graphic file (type jpg)
+<use ./figs/o_1_1_2_q.jpg>
+Package pdftex.def Info: ./figs/o_1_1_2_q.jpg  used on input line 460.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+File: ./figs/o_1_1_2_q.jpg Graphic file (type jpg)
+<use ./figs/o_1_1_2_q.jpg>
+Package pdftex.def Info: ./figs/o_1_1_2_q.jpg  used on input line 466.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+File: ./figs/m_1_1_q.jpg Graphic file (type jpg)
+<use ./figs/m_1_1_q.jpg>
+Package pdftex.def Info: ./figs/m_1_1_q.jpg  used on input line 473.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_1_2_1_q.jpg, id=776, 603.25375pt x 397.485pt>
+File: ./figs/o_1_2_1_q.jpg Graphic file (type jpg)
+<use ./figs/o_1_2_1_q.jpg>
+Package pdftex.def Info: ./figs/o_1_2_1_q.jpg  used on input line 480.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_1_2_2_q.jpg, id=777, 603.25375pt x 397.485pt>
+File: ./figs/o_1_2_2_q.jpg Graphic file (type jpg)
+<use ./figs/o_1_2_2_q.jpg>
+Package pdftex.def Info: ./figs/o_1_2_2_q.jpg  used on input line 487.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_1_2_3_q.jpg, id=778, 603.25375pt x 397.485pt>
+File: ./figs/o_1_2_3_q.jpg Graphic file (type jpg)
+<use ./figs/o_1_2_3_q.jpg>
+Package pdftex.def Info: ./figs/o_1_2_3_q.jpg  used on input line 493.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/m_2_1_q.jpg, id=779, 603.25375pt x 397.485pt>
+File: ./figs/m_2_1_q.jpg Graphic file (type jpg)
+<use ./figs/m_2_1_q.jpg>
+Package pdftex.def Info: ./figs/m_2_1_q.jpg  used on input line 500.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_2_1_1_q.jpg, id=780, 603.25375pt x 397.485pt>
+File: ./figs/o_2_1_1_q.jpg Graphic file (type jpg)
+<use ./figs/o_2_1_1_q.jpg>
+Package pdftex.def Info: ./figs/o_2_1_1_q.jpg  used on input line 507.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_2_1_2_q.jpg, id=781, 603.25375pt x 397.485pt>
+File: ./figs/o_2_1_2_q.jpg Graphic file (type jpg)
+<use ./figs/o_2_1_2_q.jpg>
+Package pdftex.def Info: ./figs/o_2_1_2_q.jpg  used on input line 514.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_2_1_3_q.jpg, id=782, 603.25375pt x 397.485pt>
+File: ./figs/o_2_1_3_q.jpg Graphic file (type jpg)
+<use ./figs/o_2_1_3_q.jpg>
+Package pdftex.def Info: ./figs/o_2_1_3_q.jpg  used on input line 520.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/m_2_2_q.jpg, id=783, 603.25375pt x 397.485pt>
+File: ./figs/m_2_2_q.jpg Graphic file (type jpg)
+<use ./figs/m_2_2_q.jpg>
+Package pdftex.def Info: ./figs/m_2_2_q.jpg  used on input line 527.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_2_2_1_q.jpg, id=784, 603.25375pt x 397.485pt>
+File: ./figs/o_2_2_1_q.jpg Graphic file (type jpg)
+<use ./figs/o_2_2_1_q.jpg>
+Package pdftex.def Info: ./figs/o_2_2_1_q.jpg  used on input line 534.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_2_2_2_q.jpg, id=785, 603.25375pt x 397.485pt>
+File: ./figs/o_2_2_2_q.jpg Graphic file (type jpg)
+<use ./figs/o_2_2_2_q.jpg>
+Package pdftex.def Info: ./figs/o_2_2_2_q.jpg  used on input line 541.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+<./figs/o_2_2_3_q.jpg, id=786, 603.25375pt x 397.485pt>
+File: ./figs/o_2_2_3_q.jpg Graphic file (type jpg)
+<use ./figs/o_2_2_3_q.jpg>
+Package pdftex.def Info: ./figs/o_2_2_3_q.jpg  used on input line 547.
+(pdftex.def)             Requested size: 105.96391pt x 69.81564pt.
+ [16] [17] [18 <./figs/m_1_1_q.jpg> <./figs/o_1_1_1_q.jpg> <./figs/o_1_1_2_q.jp
+g> <./figs/o_1_2_1_q.jpg> <./figs/o_1_2_2_q.jpg> <./figs/o_1_2_3_q.jpg> <./figs
+/m_2_1_q.jpg> <./figs/o_2_1_1_q.jpg> <./figs/o_2_1_2_q.jpg> <./figs/o_2_1_3_q.j
+pg> <./figs/m_2_2_q.jpg> <./figs/o_2_2_1_q.jpg> <./figs/o_2_2_2_q.jpg> <./figs/
+o_2_2_3_q.jpg>] [19] [20]
+<./figs/fg_dic.pdf, id=859, 597.55246pt x 845.07718pt>
+File: ./figs/fg_dic.pdf Graphic file (type pdf)
+<use ./figs/fg_dic.pdf>
+Package pdftex.def Info: ./figs/fg_dic.pdf  used on input line 631.
+(pdftex.def)             Requested size: 446.90016pt x 388.34438pt.
+ [21] [22] [23 <./figs/fg_dic.pdf>]
+<./figs/fg_dist_param.pdf, id=938, 597.55246pt x 845.07718pt>
+File: ./figs/fg_dist_param.pdf Graphic file (type pdf)
+<use ./figs/fg_dist_param.pdf>
+Package pdftex.def Info: ./figs/fg_dist_param.pdf  used on input line 669.
+(pdftex.def)             Requested size: 446.90016pt x 376.16315pt.
+<./figs/fig_lekang.jpg, id=942, 685.8122pt x 307.1475pt>
+File: ./figs/fig_lekang.jpg Graphic file (type jpg)
+<use ./figs/fig_lekang.jpg>
+Package pdftex.def Info: ./figs/fig_lekang.jpg  used on input line 679.
+(pdftex.def)             Requested size: 446.90016pt x 200.15434pt.
+ [24] [25 <./figs/fg_dist_param.pdf>]
+<./figs/fig_eonss.jpg, id=1015, 391.4625pt x 111.41624pt>
+File: ./figs/fig_eonss.jpg Graphic file (type jpg)
+<use ./figs/fig_eonss.jpg>
+Package pdftex.def Info: ./figs/fig_eonss.jpg  used on input line 691.
+(pdftex.def)             Requested size: 446.90016pt x 127.20114pt.
+<./figs/gry_org009.jpg, id=1020, 1284.8pt x 722.7pt>
+File: ./figs/gry_org009.jpg Graphic file (type jpg)
+<use ./figs/gry_org009.jpg>
+Package pdftex.def Info: ./figs/gry_org009.jpg  used on input line 703.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/lbp_org009.jpg, id=1021, 1282.7925pt x 720.6925pt>
+File: ./figs/lbp_org009.jpg Graphic file (type jpg)
+<use ./figs/lbp_org009.jpg>
+Package pdftex.def Info: ./figs/lbp_org009.jpg  used on input line 710.
+(pdftex.def)             Requested size: 138.21777pt x 77.64888pt.
+<./figs/lbpRIU2_org009.jpg, id=1022, 1282.7925pt x 720.6925pt>
+File: ./figs/lbpRIU2_org009.jpg Graphic file (type jpg)
+<use ./figs/lbpRIU2_org009.jpg>
+Package pdftex.def Info: ./figs/lbpRIU2_org009.jpg  used on input line 717.
+(pdftex.def)             Requested size: 138.21777pt x 77.64888pt.
+ [26 <./figs/fig_lekang.jpg>] [27 <./figs/fig_eonss.jpg> <./figs/gry_org009.jpg
+> <./figs/lbp_org009.jpg> <./figs/lbpRIU2_org009.jpg>]
+<figs/roi.jpg, id=1038, 629.35126pt x 65.49469pt>
+File: figs/roi.jpg Graphic file (type jpg)
+<use figs/roi.jpg>
+Package pdftex.def Info: figs/roi.jpg  used on input line 744.
+(pdftex.def)             Requested size: 451.50484pt x 46.98622pt.
+<./figs/org009.jpg, id=1043, 1284.8pt x 722.7pt>
+File: ./figs/org009.jpg Graphic file (type jpg)
+<use ./figs/org009.jpg>
+Package pdftex.def Info: ./figs/org009.jpg  used on input line 766.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/gradientMap.jpg, id=1044, 1284.8pt x 722.7pt>
+File: ./figs/gradientMap.jpg Graphic file (type jpg)
+<use ./figs/gradientMap.jpg>
+Package pdftex.def Info: ./figs/gradientMap.jpg  used on input line 773.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/lbp_gradient.jpg, id=1045, 1282.7925pt x 720.6925pt>
+File: ./figs/lbp_gradient.jpg Graphic file (type jpg)
+<use ./figs/lbp_gradient.jpg>
+Package pdftex.def Info: ./figs/lbp_gradient.jpg  used on input line 780.
+(pdftex.def)             Requested size: 138.21777pt x 77.64888pt.
+<./figs/img225.jpg, id=1046, 1284.8pt x 722.7pt>
+File: ./figs/img225.jpg Graphic file (type jpg)
+<use ./figs/img225.jpg>
+Package pdftex.def Info: ./figs/img225.jpg  used on input line 787.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/gradientMap2.jpg, id=1047, 1284.8pt x 722.7pt>
+File: ./figs/gradientMap2.jpg Graphic file (type jpg)
+<use ./figs/gradientMap2.jpg>
+Package pdftex.def Info: ./figs/gradientMap2.jpg  used on input line 794.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/lbp_gradient2.jpg, id=1048, 1282.7925pt x 720.6925pt>
+File: ./figs/lbp_gradient2.jpg Graphic file (type jpg)
+<use ./figs/lbp_gradient2.jpg>
+Package pdftex.def Info: ./figs/lbp_gradient2.jpg  used on input line 801.
+(pdftex.def)             Requested size: 138.21777pt x 77.64888pt.
+<./figs/img234.jpg, id=1049, 1284.8pt x 722.7pt>
+File: ./figs/img234.jpg Graphic file (type jpg)
+<use ./figs/img234.jpg>
+Package pdftex.def Info: ./figs/img234.jpg  used on input line 808.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/gradientMap3.jpg, id=1050, 1284.8pt x 722.7pt>
+File: ./figs/gradientMap3.jpg Graphic file (type jpg)
+<use ./figs/gradientMap3.jpg>
+Package pdftex.def Info: ./figs/gradientMap3.jpg  used on input line 815.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/lbp_gradient3.jpg, id=1051, 1282.7925pt x 720.6925pt>
+File: ./figs/lbp_gradient3.jpg Graphic file (type jpg)
+<use ./figs/lbp_gradient3.jpg>
+Package pdftex.def Info: ./figs/lbp_gradient3.jpg  used on input line 822.
+(pdftex.def)             Requested size: 138.21777pt x 77.64888pt.
+<./figs/img243.jpg, id=1052, 1284.8pt x 722.7pt>
+File: ./figs/img243.jpg Graphic file (type jpg)
+<use ./figs/img243.jpg>
+Package pdftex.def Info: ./figs/img243.jpg  used on input line 829.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/gradientMap4.jpg, id=1053, 1284.8pt x 722.7pt>
+File: ./figs/gradientMap4.jpg Graphic file (type jpg)
+<use ./figs/gradientMap4.jpg>
+Package pdftex.def Info: ./figs/gradientMap4.jpg  used on input line 836.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/lbp_gradient4.jpg, id=1054, 1282.7925pt x 720.6925pt>
+File: ./figs/lbp_gradient4.jpg Graphic file (type jpg)
+<use ./figs/lbp_gradient4.jpg>
+Package pdftex.def Info: ./figs/lbp_gradient4.jpg  used on input line 843.
+(pdftex.def)             Requested size: 138.21777pt x 77.64888pt.
+File: ./figs/org009.jpg Graphic file (type jpg)
+<use ./figs/org009.jpg>
+Package pdftex.def Info: ./figs/org009.jpg  used on input line 856.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/simple_histogram.jpg, id=1057, 878.28125pt x 658.46pt>
+File: ./figs/simple_histogram.jpg Graphic file (type jpg)
+<use ./figs/simple_histogram.jpg>
+Package pdftex.def Info: ./figs/simple_histogram.jpg  used on input line 863.
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+<./figs/wighted_histogram.jpg, id=1058, 878.28125pt x 658.46pt>
+File: ./figs/wighted_histogram.jpg Graphic file (type jpg)
+<use ./figs/wighted_histogram.jpg>
+Package pdftex.def Info: ./figs/wighted_histogram.jpg  used on input line 870.
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+File: ./figs/img225.jpg Graphic file (type jpg)
+<use ./figs/img225.jpg>
+Package pdftex.def Info: ./figs/img225.jpg  used on input line 877.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/simple_histogram2.jpg, id=1059, 878.28125pt x 658.46pt>
+File: ./figs/simple_histogram2.jpg Graphic file (type jpg)
+<use ./figs/simple_histogram2.jpg>
+Package pdftex.def Info: ./figs/simple_histogram2.jpg  used on input line 884.
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+<./figs/wighted_histogram2.jpg, id=1060, 878.28125pt x 658.46pt>
+File: ./figs/wighted_histogram2.jpg Graphic file (type jpg)
+<use ./figs/wighted_histogram2.jpg>
+Package pdftex.def Info: ./figs/wighted_histogram2.jpg  used on input line 891.
+
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+File: ./figs/img234.jpg Graphic file (type jpg)
+<use ./figs/img234.jpg>
+Package pdftex.def Info: ./figs/img234.jpg  used on input line 898.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/simple_histogram3.jpg, id=1061, 878.28125pt x 658.46pt>
+File: ./figs/simple_histogram3.jpg Graphic file (type jpg)
+<use ./figs/simple_histogram3.jpg>
+Package pdftex.def Info: ./figs/simple_histogram3.jpg  used on input line 905.
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+<./figs/wighted_histogram3.jpg, id=1062, 878.28125pt x 658.46pt>
+File: ./figs/wighted_histogram3.jpg Graphic file (type jpg)
+<use ./figs/wighted_histogram3.jpg>
+Package pdftex.def Info: ./figs/wighted_histogram3.jpg  used on input line 912.
+
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+File: ./figs/img243.jpg Graphic file (type jpg)
+<use ./figs/img243.jpg>
+Package pdftex.def Info: ./figs/img243.jpg  used on input line 919.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/simple_histogram4.jpg, id=1063, 878.28125pt x 658.46pt>
+File: ./figs/simple_histogram4.jpg Graphic file (type jpg)
+<use ./figs/simple_histogram4.jpg>
+Package pdftex.def Info: ./figs/simple_histogram4.jpg  used on input line 926.
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+<./figs/wighted_histogram4.jpg, id=1064, 878.28125pt x 658.46pt>
+File: ./figs/wighted_histogram4.jpg Graphic file (type jpg)
+<use ./figs/wighted_histogram4.jpg>
+Package pdftex.def Info: ./figs/wighted_histogram4.jpg  used on input line 933.
+
+(pdftex.def)             Requested size: 138.21777pt x 103.61757pt.
+ [28 <./figs/roi.jpg>] [29 <./figs/org009.jpg> <./figs/gradientMap.jpg> <./figs
+/lbp_gradient.jpg> <./figs/img225.jpg> <./figs/gradientMap2.jpg> <./figs/lbp_gr
+adient2.jpg> <./figs/img234.jpg> <./figs/gradientMap3.jpg> <./figs/lbp_gradient
+3.jpg> <./figs/img243.jpg> <./figs/gradientMap4.jpg> <./figs/lbp_gradient4.jpg>
+] [30] [31 <./figs/simple_histogram.jpg> <./figs/wighted_histogram.jpg> <./figs
+/simple_histogram2.jpg> <./figs/wighted_histogram2.jpg> <./figs/simple_histogra
+m3.jpg> <./figs/wighted_histogram3.jpg> <./figs/simple_histogram4.jpg> <./figs/
+wighted_histogram4.jpg>]
+File: ./figs/org009.jpg Graphic file (type jpg)
+<use ./figs/org009.jpg>
+Package pdftex.def Info: ./figs/org009.jpg  used on input line 974.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/MSCN_house.jpg, id=1109, 1284.8pt x 722.7pt>
+File: ./figs/MSCN_house.jpg Graphic file (type jpg)
+<use ./figs/MSCN_house.jpg>
+Package pdftex.def Info: ./figs/MSCN_house.jpg  used on input line 981.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/lbp_mscn.jpg, id=1110, 1282.7925pt x 720.6925pt>
+File: ./figs/lbp_mscn.jpg Graphic file (type jpg)
+<use ./figs/lbp_mscn.jpg>
+Package pdftex.def Info: ./figs/lbp_mscn.jpg  used on input line 988.
+(pdftex.def)             Requested size: 138.21777pt x 77.64888pt.
+<./figs/gcs_mscn.jpg, id=1111, 1282.7925pt x 720.6925pt>
+File: ./figs/gcs_mscn.jpg Graphic file (type jpg)
+<use ./figs/gcs_mscn.jpg>
+Package pdftex.def Info: ./figs/gcs_mscn.jpg  used on input line 995.
+(pdftex.def)             Requested size: 138.21777pt x 77.64888pt.
+ [32 <./figs/MSCN_house.jpg> <./figs/lbp_mscn.jpg> <./figs/gcs_mscn.jpg>] [33])
+ (./chapter-proposed.tex [34]
+Chapter 3.
+File: ./figs/org009.jpg Graphic file (type jpg)
+<use ./figs/org009.jpg>
+Package pdftex.def Info: ./figs/org009.jpg  used on input line 19.
+(pdftex.def)             Requested size: 138.21777pt x 77.74387pt.
+<./figs/mg_map_ref.jpg, id=1147, 479.69818pt x 269.67867pt>
+File: ./figs/mg_map_ref.jpg Graphic file (type jpg)
+<use ./figs/mg_map_ref.jpg>
+Package pdftex.def Info: ./figs/mg_map_ref.jpg  used on input line 26.
+(pdftex.def)             Requested size: 138.21777pt x 77.70277pt.
+<./figs/dir_ref.jpg, id=1148, 477.27303pt x 270.1637pt>
+File: ./figs/dir_ref.jpg Graphic file (type jpg)
+<use ./figs/dir_ref.jpg>
+Package pdftex.def Info: ./figs/dir_ref.jpg  used on input line 33.
+(pdftex.def)             Requested size: 138.21777pt x 78.23828pt.
+[35
+
+
+]
+File: ./figs/org009.jpg Graphic file (type jpg)
+<use ./figs/org009.jpg>
+Package pdftex.def Info: ./figs/org009.jpg  used on input line 50.
+(pdftex.def)             Requested size: 110.57562pt x 62.19508pt.
+<./figs/blur3.jpg, id=1158, 1284.8pt x 722.7pt>
+File: ./figs/blur3.jpg Graphic file (type jpg)
+<use ./figs/blur3.jpg>
+Package pdftex.def Info: ./figs/blur3.jpg  used on input line 57.
+(pdftex.def)             Requested size: 110.57562pt x 62.19508pt.
+<./figs/jpeg3.jpg, id=1159, 1284.8pt x 722.7pt>
+File: ./figs/jpeg3.jpg Graphic file (type jpg)
+<use ./figs/jpeg3.jpg>
+Package pdftex.def Info: ./figs/jpeg3.jpg  used on input line 64.
+(pdftex.def)             Requested size: 110.57562pt x 62.19508pt.
+<./figs/blur3_jpeg3.jpg, id=1160, 1284.8pt x 722.7pt>
+File: ./figs/blur3_jpeg3.jpg Graphic file (type jpg)
+<use ./figs/blur3_jpeg3.jpg>
+Package pdftex.def Info: ./figs/blur3_jpeg3.jpg  used on input line 71.
+(pdftex.def)             Requested size: 110.57562pt x 62.19508pt.
+File: ./figs/dir_ref.jpg Graphic file (type jpg)
+<use ./figs/dir_ref.jpg>
+Package pdftex.def Info: ./figs/dir_ref.jpg  used on input line 77.
+(pdftex.def)             Requested size: 110.57562pt x 62.5898pt.
+<./figs/dir_blur3.jpg, id=1161, 479.21315pt x 271.61879pt>
+File: ./figs/dir_blur3.jpg Graphic file (type jpg)
+<use ./figs/dir_blur3.jpg>
+Package pdftex.def Info: ./figs/dir_blur3.jpg  used on input line 84.
+(pdftex.def)             Requested size: 110.57562pt x 62.67409pt.
+<./figs/dir_jpeg3.jpg, id=1162, 479.21315pt x 269.19362pt>
+File: ./figs/dir_jpeg3.jpg Graphic file (type jpg)
+<use ./figs/dir_jpeg3.jpg>
+Package pdftex.def Info: ./figs/dir_jpeg3.jpg  used on input line 91.
+(pdftex.def)             Requested size: 110.57562pt x 62.11449pt.
+<./figs/dir_blur3_jpeg_3.jpg, id=1163, 478.24309pt x 268.22356pt>
+File: ./figs/dir_blur3_jpeg_3.jpg Graphic file (type jpg)
+<use ./figs/dir_blur3_jpeg_3.jpg>
+Package pdftex.def Info: ./figs/dir_blur3_jpeg_3.jpg  used on input line 98.
+(pdftex.def)             Requested size: 110.57562pt x 62.01344pt.
+ [36 <./figs/mg_map_ref.jpg> <./figs/dir_ref.jpg>]
+File: ./figs/dir_ref.jpg Graphic file (type jpg)
+<use ./figs/dir_ref.jpg>
+Package pdftex.def Info: ./figs/dir_ref.jpg  used on input line 129.
+(pdftex.def)             Requested size: 225.75594pt x 127.78905pt.
+<./figs/mm_dir.jpg, id=1174, 1284.8pt x 722.7pt>
+File: ./figs/mm_dir.jpg Graphic file (type jpg)
+<use ./figs/mm_dir.jpg>
+Package pdftex.def Info: ./figs/mm_dir.jpg  used on input line 136.
+(pdftex.def)             Requested size: 225.75594pt x 126.98166pt.
+ [37 <./figs/blur3.jpg> <./figs/jpeg3.jpg> <./figs/blur3_jpeg3.jpg> <./figs/dir
+_blur3.jpg> <./figs/dir_jpeg3.jpg> <./figs/dir_blur3_jpeg_3.jpg> <./figs/mm_dir
+.jpg>]
+<./figs/bank_H_D.jpg, id=1187, 4326.1625pt x 2168.1pt>
+File: ./figs/bank_H_D.jpg Graphic file (type jpg)
+<use ./figs/bank_H_D.jpg>
+Package pdftex.def Info: ./figs/bank_H_D.jpg  used on input line 161.
+(pdftex.def)             Requested size: 460.72124pt x 230.88277pt.
+<./figs/bank_MWH_D.jpg, id=1190, 4326.1625pt x 2168.1pt>
+File: ./figs/bank_MWH_D.jpg Graphic file (type jpg)
+<use ./figs/bank_MWH_D.jpg>
+Package pdftex.def Info: ./figs/bank_MWH_D.jpg  used on input line 169.
+(pdftex.def)             Requested size: 460.72124pt x 230.88277pt.
+File: ./figs/org009.jpg Graphic file (type jpg)
+<use ./figs/org009.jpg>
+Package pdftex.def Info: ./figs/org009.jpg  used on input line 184.
+(pdftex.def)             Requested size: 110.57562pt x 62.19508pt.
+File: ./figs/mg_map_ref.jpg Graphic file (type jpg)
+<use ./figs/mg_map_ref.jpg>
+Package pdftex.def Info: ./figs/mg_map_ref.jpg  used on input line 191.
+(pdftex.def)             Requested size: 110.57562pt x 62.16057pt.
+File: ./figs/mm_dir.jpg Graphic file (type jpg)
+<use ./figs/mm_dir.jpg>
+Package pdftex.def Info: ./figs/mm_dir.jpg  used on input line 198.
+(pdftex.def)             Requested size: 110.57562pt x 62.19508pt.
+File: ./figs/dir_ref.jpg Graphic file (type jpg)
+<use ./figs/dir_ref.jpg>
+Package pdftex.def Info: ./figs/dir_ref.jpg  used on input line 205.
+(pdftex.def)             Requested size: 110.57562pt x 62.5898pt.
+ [38] [39 <./figs/bank_H_D.jpg> <./figs/bank_MWH_D.jpg>]
+<./figs/lbp_nr.jpg, id=1210, 95.6072pt x 96.36pt>
+File: ./figs/lbp_nr.jpg Graphic file (type jpg)
+<use ./figs/lbp_nr.jpg>
+Package pdftex.def Info: ./figs/lbp_nr.jpg  used on input line 220.
+(pdftex.def)             Requested size: 115.1803pt x 116.09308pt.
+<./figs/lbp_gu.jpg, id=1211, 108.405pt x 106.89937pt>
+File: ./figs/lbp_gu.jpg Graphic file (type jpg)
+<use ./figs/lbp_gu.jpg>
+Package pdftex.def Info: ./figs/lbp_gu.jpg  used on input line 227.
+(pdftex.def)             Requested size: 138.21777pt x 136.31526pt.
+ [40 <./figs/lbp_nr.jpg> <./figs/lbp_gu.jpg>]
+<./figs/bank_lin_man_cher.jpg, id=1221, 4326.1625pt x 2168.1pt>
+File: ./figs/bank_lin_man_cher.jpg Graphic file (type jpg)
+<use ./figs/bank_lin_man_cher.jpg>
+Package pdftex.def Info: ./figs/bank_lin_man_cher.jpg  used on input line 240.
+(pdftex.def)             Requested size: 460.72124pt x 230.88277pt.
+ [41 <./figs/bank_lin_man_cher.jpg>]) (./chapter-test.tex [42]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\OT1/cmr/m/n/8 Blur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\OT1/cmr/m/n/8 JPEG
+ []
+
+[43
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+[]|\OT1/cmr/m/n/8 Version
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\OT1/cmr/m/n/8 Blur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\OT1/cmr/m/n/8 Noise
+ []
+
+[44]
+Overfull \hbox (1.07907pt too wide) in paragraph at lines 73--73
+[]|\OT1/cmr/m/n/10 Propsed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\OT1/cmr/m/n/10 Method
+ []
+
+
+Overfull \hbox (12.04735pt too wide) in paragraph at lines 73--74
+[]|\OT1/cmr/m/n/10 Proposed
+ []
+
+
+Overfull \hbox (5.43623pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 Method
+ []
+
+
+Overfull \hbox (19.95842pt too wide) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 (blur+JPEG)|  
+ []
+
+
+Overfull \hbox (15.0834pt too wide) in paragraph at lines 82--82
+\OT1/cmr/m/n/10 (blur+noise)|  
+ []
+
+
+Overfull \hbox (8.0556pt too wide) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/10 MDID2013|  
+ []
+
+
+Overfull \hbox (8.0556pt too wide) in paragraph at lines 100--100
+[]|\OT1/cmr/m/n/10 MDID2016|  
+ []
+
+
+Overfull \hbox (1.07907pt too wide) in paragraph at lines 116--116
+[]|\OT1/cmr/m/n/10 Propsed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\OT1/cmr/m/n/10 Method
+ []
+
+
+Overfull \hbox (12.04735pt too wide) in paragraph at lines 116--117
+[]|\OT1/cmr/m/n/10 Proposed
+ []
+
+
+Overfull \hbox (5.43623pt too wide) in paragraph at lines 116--117
+\OT1/cmr/m/n/10 Method
+ []
+
+[45]
+Overfull \hbox (12.04735pt too wide) in paragraph at lines 145--146
+[]|\OT1/cmr/m/n/10 Proposed
+ []
+
+
+Overfull \hbox (5.43623pt too wide) in paragraph at lines 145--146
+\OT1/cmr/m/n/10 Method| 
+ []
+
+
+Overfull \hbox (8.0556pt too wide) in paragraph at lines 154--154
+[]|\OT1/cmr/m/n/10 MDID2013|  
+ []
+
+
+Overfull \hbox (8.0556pt too wide) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/10 MDID2016|  
+ []
+
+
+Overfull \hbox (0.83334pt too wide) in paragraph at lines 166--166
+[]|\OT1/cmr/m/n/10 Weighted 
+ []
+
+
+Overfull \hbox (8.0556pt too wide) in paragraph at lines 187--187
+[]|\OT1/cmr/m/n/10 MDID2013|  
+ []
+
+
+Overfull \hbox (8.0556pt too wide) in paragraph at lines 199--199
+[]|\OT1/cmr/m/n/10 MDID2016|  
+ []
+
+[46]
+Overfull \hbox (8.0556pt too wide) in paragraph at lines 225--225
+[]|\OT1/cmr/m/n/10 MDID2013|  
+ []
+
+
+Overfull \hbox (8.0556pt too wide) in paragraph at lines 228--228
+[]|\OT1/cmr/m/n/10 MDID2016|  
+ []
+
+[47]) [48] [49] [50] [51] [52] [53] [54] [55] [56] (./diss_Cheraaqee.bbl
+[57
+
+
+
+
+] [58] [59] [60] [61] [62] [63] [64] [65] [66])
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+[67
+runsystem(makeindex -s diss_Cheraaqee.ist -t diss_Cheraaqee.glg -o diss_Cheraaq
+ee.gls diss_Cheraaqee.glo)...executed safely (allowed).
+
+runsystem(makeindex -s diss_Cheraaqee.ist -t diss_Cheraaqee.glg-abr -o diss_Che
+raaqee.gls-abr diss_Cheraaqee.glo-abr)...executed safely (allowed).
+
+runsystem(makeindex -s diss_Cheraaqee.ist -t diss_Cheraaqee.nomenclature-glg -o
+ diss_Cheraaqee.nomenclature-gls diss_Cheraaqee.nomenclature-glo)...executed sa
+fely (allowed).
+
+runsystem(makeindex -s diss_Cheraaqee.ist -t diss_Cheraaqee.symbols-glg -o diss
+_Cheraaqee.symbols-gls diss_Cheraaqee.symbols-glo)...executed safely (allowed).
+
+] (./diss_Cheraaqee.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `diss_Cheraaqee.out' has not changed.
+(rerunfilecheck)             Checksum: D77335854C18D07F8746896CC7DD6B26;3645.
+ ) 
+Here is how much of TeX's memory you used:
+ 20089 strings out of 478293
+ 352767 string characters out of 5844974
+ 773989 words of memory out of 5000000
+ 37556 multiletter control sequences out of 15000+600000
+ 481767 words of font info for 78 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 106i,16n,117p,1231b,641s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on diss_Cheraaqee.pdf (78 pages, 30493830 bytes).
+PDF statistics:
+ 1557 PDF objects out of 1728 (max. 8388607)
+ 1243 compressed objects within 13 object streams
+ 314 named destinations out of 1000 (max. 500000)
+ 902 words of extra memory for PDF output out of 10000 (max. 10000000)
+
