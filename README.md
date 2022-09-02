@@ -1,2 +1,2 @@
-# dissertation
-Masters dissertation on quality assessment of multiply distorted images
+# Master's Thesis
+```diss_Cheraaqee.pdf```
